@@ -1,0 +1,3 @@
+E:\python\Lib\site-packages\cmake\data\bin\cmake.exe -E rm -f CMakeFiles\AutomaticWeather_1.dir/objects.a
+D:\QT\QT6.8\Tools\mingw1310_64\bin\ar.exe qc CMakeFiles\AutomaticWeather_1.dir/objects.a @CMakeFiles\AutomaticWeather_1.dir\objects1.rsp
+D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe -DQT_QML_DEBUG -g -mwindows -Wl,--whole-archive CMakeFiles\AutomaticWeather_1.dir/objects.a -Wl,--no-whole-archive -o AutomaticWeather_1.exe -Wl,--out-implib,libAutomaticWeather_1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\AutomaticWeather_1.dir\linkLibs.rsp
