@@ -487,4 +487,34 @@ CMakeFiles/AutomaticWeather_1.dir/ExportDialog.cpp.obj: \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qtextcursor.h \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qtextformat.h \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qpen.h \
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qtextoption.h
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qtextoption.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QTimer \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtimer.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qbasictimer.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/QCloseEvent \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qevent.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qcoreevent.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qeventpoint.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qvector2d.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qvectornd.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qpointingdevice.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qinputdevice.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qscreen.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QList \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qlist.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QObject \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QRect \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qrect.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QSize \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qsize.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QSizeF \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/QTransform \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qtransform.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qnativeinterface.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qscreen_platform.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qguiapplication.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qcoreapplication.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qeventloop.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qcoreapplication_platform.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qinputmethod.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qguiapplication_platform.h

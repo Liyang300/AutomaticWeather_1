@@ -2849,9 +2849,14 @@ CMakeFiles/AutomaticWeather_1.dir/ExportDialog.cpp.obj: D:/BIANJI/qt/AutomaticWe
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QDate \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QDateTime \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QDebug \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QList \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QMutex \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QObject \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QPointF \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QRect \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QSize \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QSizeF \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QTimer \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QVector \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/q20functional.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/q20iterator.h \
@@ -2869,6 +2874,7 @@ CMakeFiles/AutomaticWeather_1.dir/ExportDialog.cpp.obj: D:/BIANJI/qt/AutomaticWe
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qatomic.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qatomic_cxx11.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qbasicatomic.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qbasictimer.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qbindingstorage.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qbytearray.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qbytearrayalgorithms.h \
@@ -2886,6 +2892,9 @@ CMakeFiles/AutomaticWeather_1.dir/ExportDialog.cpp.obj: D:/BIANJI/qt/AutomaticWe
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qcontainerinfo.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qcontainertools_impl.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qcontiguouscache.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qcoreapplication.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qcoreapplication_platform.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qcoreevent.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qdarwinhelpers.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qdatastream.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qdatetime.h \
@@ -2895,6 +2904,7 @@ CMakeFiles/AutomaticWeather_1.dir/ExportDialog.cpp.obj: D:/BIANJI/qt/AutomaticWe
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qdirlisting.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qelapsedtimer.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qendian.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qeventloop.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qexceptionhandling.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfile.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfiledevice.h \
@@ -2928,6 +2938,7 @@ CMakeFiles/AutomaticWeather_1.dir/ExportDialog.cpp.obj: D:/BIANJI/qt/AutomaticWe
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qminmax.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qmutex.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qnamespace.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qnativeinterface.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qnumeric.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qobject.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qobject_impl.h \
@@ -2973,6 +2984,7 @@ CMakeFiles/AutomaticWeather_1.dir/ExportDialog.cpp.obj: D:/BIANJI/qt/AutomaticWe
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtdeprecationmarkers.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtenvironmentvariables.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtextstream.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtimer.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtimezone.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtmetamacros.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtnoop.h \
@@ -2993,16 +3005,24 @@ CMakeFiles/AutomaticWeather_1.dir/ExportDialog.cpp.obj: D:/BIANJI/qt/AutomaticWe
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qversiontagging.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qxptype_traits.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qyieldcpu.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/QCloseEvent \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/QTransform \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qaction.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qbitmap.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qbrush.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qcolor.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qcursor.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qevent.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qeventpoint.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qfont.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qfontinfo.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qfontmetrics.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qguiapplication.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qguiapplication_platform.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qicon.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qimage.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qinputdevice.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qinputmethod.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qkeysequence.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qpaintdevice.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qpalette.h \
@@ -3010,10 +3030,13 @@ CMakeFiles/AutomaticWeather_1.dir/ExportDialog.cpp.obj: D:/BIANJI/qt/AutomaticWe
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qpicture.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qpixelformat.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qpixmap.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qpointingdevice.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qpolygon.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qregion.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qrgb.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qrgba64.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qscreen.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qscreen_platform.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qtextcursor.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qtextdocument.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qtextformat.h \
@@ -3023,6 +3046,8 @@ CMakeFiles/AutomaticWeather_1.dir/ExportDialog.cpp.obj: D:/BIANJI/qt/AutomaticWe
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qtguiglobal.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qtransform.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qvalidator.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qvector2d.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qvectornd.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qwindowdefs.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qwindowdefs_win.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtSql/QSqlDatabase \

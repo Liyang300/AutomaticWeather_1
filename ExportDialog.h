@@ -32,6 +32,7 @@ private slots:
     void onBrowseClicked();
     void onExportClicked();
     void onCancelClicked();
+    void closeEvent(QCloseEvent *event);
 
 private:
     QComboBox* m_startDateCombo;

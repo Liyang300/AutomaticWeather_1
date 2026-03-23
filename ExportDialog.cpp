@@ -7,6 +7,8 @@
 #include <QMessageBox>
 #include <QDebug>
 #include <QLineEdit>
+#include <QTimer>
+#include <QCloseEvent>
 
 ExportDialog::ExportDialog(QWidget *parent)
     : QDialog(parent)
@@ -22,12 +24,13 @@ ExportDialog::ExportDialog(QWidget *parent)
     setMinimumSize(400, 300);
 
     setupUI();
-    populateDateComboBoxes();
-
+    //populateDateComboBoxes();
+    QTimer::singleShot(0, this, &ExportDialog::populateDateComboBoxes);
     // 设置默认文件路径
     QString defaultPath = QDir::currentPath() + "/weather_export_" +
                           QDate::currentDate().toString("yyyyMMdd") + ".csv";
     m_filePathEdit->setText(defaultPath);
+
 }
 
 void ExportDialog::setupUI()
@@ -176,4 +179,10 @@ void ExportDialog::onExportFinished(bool success, const QString& message)
         m_statusLabel->setText("导出失败!");
         QMessageBox::critical(this, "错误", message);
     }
+}
+void ExportDialog::closeEvent(QCloseEvent *event)
+{
+    qDebug() << "closeEvent called";
+    event->accept();
+    QDialog::closeEvent(event);
 }
