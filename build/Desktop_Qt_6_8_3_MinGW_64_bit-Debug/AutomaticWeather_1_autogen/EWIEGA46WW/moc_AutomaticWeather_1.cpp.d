@@ -12,6 +12,7 @@ D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/build/Desktop_Qt_6_8_3_MinGW_
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QDateTime \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QDebug \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QEventLoop \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QFutureWatcher \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QMutex \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QObject \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QPointF \
@@ -68,6 +69,7 @@ D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/build/Desktop_Qt_6_8_3_MinGW_
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qelapsedtimer.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qendian.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qeventloop.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qexception.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qexceptionhandling.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfile.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfiledevice.h \
@@ -77,6 +79,10 @@ D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/build/Desktop_Qt_6_8_3_MinGW_
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qforeach.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfunctionaltools_impl.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfunctionpointer.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfuture.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfuture_impl.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfutureinterface.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfuturewatcher.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qgenericatomic.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qglobal.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qglobalstatic.h \
@@ -112,12 +118,15 @@ D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/build/Desktop_Qt_6_8_3_MinGW_
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qpair.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qpoint.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qprocessordetection.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qpromise.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qproperty.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qpropertyprivate.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qrandom.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qrect.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qrefcount.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qregularexpression.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qresultstore.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qrunnable.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qscopedpointer.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qscopeguard.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qset.h \
@@ -152,6 +161,7 @@ D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/build/Desktop_Qt_6_8_3_MinGW_
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtenvironmentvariables.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtextstream.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qthread.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qthreadpool.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtimer.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtimezone.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtmetamacros.h \
@@ -198,7 +208,9 @@ D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/build/Desktop_Qt_6_8_3_MinGW_
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qregion.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qrgb.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qrgba64.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qtextcursor.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qtextdocument.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qtextformat.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qtextoption.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qtgui-config.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qtguiexports.h \
@@ -240,6 +252,7 @@ D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/build/Desktop_Qt_6_8_3_MinGW_
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QFileDialog \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QHeaderView \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QLabel \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QLineEdit \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QMessageBox \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QProgressBar \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QProgressDialog \
@@ -261,6 +274,7 @@ D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/build/Desktop_Qt_6_8_3_MinGW_
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qframe.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qheaderview.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qlabel.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qlineedit.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qmessagebox.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qprogressbar.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qprogressdialog.h \

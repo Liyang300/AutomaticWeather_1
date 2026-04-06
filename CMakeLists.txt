@@ -18,6 +18,7 @@ find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets
                                                   SerialBus    #modbus组件
                                                   Sql          # 添加SQL支持
                                                   Charts       # chart支持
+                                                  Concurrent
                                               )
 
 
@@ -27,6 +28,7 @@ find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets
                                                        SerialBus    #modbus组件
                                                        Sql          # 添加SQL支持
                                                        Charts       # chart支持
+                                                       Concurrent
                                                    )
 #find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Core)
 #find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Core)
@@ -98,6 +100,7 @@ target_link_libraries(AutomaticWeather_1 PRIVATE
     Qt${QT_VERSION_MAJOR}::SerialBus    # 添加modbus模块
     Qt${QT_VERSION_MAJOR}::Sql          # 添加SQL支持
     Qt${QT_VERSION_MAJOR}::Charts       # chart支持
+    Qt${QT_VERSION_MAJOR}::Concurrent
 
 )
 target_link_libraries(AutomaticWeather_1 PRIVATE Qt${QT_VERSION_MAJOR}::Core)

@@ -265,6 +265,7 @@ AutomaticWeather_1.exe: CMakeFiles/AutomaticWeather_1.dir/build.make
 AutomaticWeather_1.exe: D:/QT/QT6.8/6.8.3/mingw_64/lib/libQt6SerialBus.a
 AutomaticWeather_1.exe: D:/QT/QT6.8/6.8.3/mingw_64/lib/libQt6Sql.a
 AutomaticWeather_1.exe: D:/QT/QT6.8/6.8.3/mingw_64/lib/libQt6Charts.a
+AutomaticWeather_1.exe: D:/QT/QT6.8/6.8.3/mingw_64/lib/libQt6Concurrent.a
 AutomaticWeather_1.exe: D:/QT/QT6.8/6.8.3/mingw_64/lib/libQt6SerialPort.a
 AutomaticWeather_1.exe: D:/QT/QT6.8/6.8.3/mingw_64/lib/libQt6Network.a
 AutomaticWeather_1.exe: D:/QT/QT6.8/6.8.3/mingw_64/lib/libQt6OpenGLWidgets.a

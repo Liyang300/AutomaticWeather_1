@@ -920,26 +920,17 @@ void AutomaticWeather_1::on_save_clicked()
 {
     ExportDialog dialog(this);
 
-    // 连接导出请求信号到数据库的导出函数
     connect(&dialog, &ExportDialog::exportRequested,
             this, [this, &dialog](const QDate& start, const QDate& end, const QString& path) {
-                // 获取数据库管理器实例
                 DatabaseManager& db = DatabaseManager::instance();
-
-                // 连接数据库的进度信号到对话框的进度槽
                 connect(&db, &DatabaseManager::exportProgress,
                         &dialog, &ExportDialog::onExportProgress);
                 connect(&db, &DatabaseManager::exportFinished,
                         &dialog, &ExportDialog::onExportFinished);
-
-                // 执行导出（该函数内部会发射进度信号）
                 db.exportToCSV(path, start, end);
             });
 
-    // 显示对话框（模态）
     dialog.exec();
-
-
     /*
     // 创建导出对话框
     QDialog exportDialog(this);

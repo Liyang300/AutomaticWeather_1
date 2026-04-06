@@ -176,8 +176,8 @@ void SensorDataParser::parseWindSpeedData(const QByteArray &rawData, quint8 devi
     emit windSpeedParsed(windSpeed);
 }
 
-// 修改：解析风向数据
-// 修改：解析风向数据（8方位编码）
+// 解析风向数据
+// 解析风向数据（8方位编码）
 void SensorDataParser::parseWindDirectionData(const QByteArray &rawData, quint8 deviceAddress)
 {
     Q_UNUSED(deviceAddress);

@@ -1,28 +1,29 @@
-// ExportDialog.h
 #ifndef EXPORTDIALOG_H
 #define EXPORTDIALOG_H
 
 #include <QDialog>
-#include <QDate>
-#include <QProgressBar>
 #include <QComboBox>
-#include <QPushButton>
+#include <QLineEdit>
+#include <QProgressBar>
 #include <QLabel>
-#include <QFileDialog>
+#include <QPushButton>
+#include <QFutureWatcher>
+#include <QVector>
+#include <QDate>
 
 class ExportDialog : public QDialog
 {
     Q_OBJECT
-
 public:
     explicit ExportDialog(QWidget *parent = nullptr);
+    ~ExportDialog();
 
     QDate startDate() const;
     QDate endDate() const;
     QString filePath() const;
 
 signals:
-    void exportRequested(const QDate& start, const QDate& end, const QString& filePath);
+    void exportRequested(const QDate& start, const QDate& end, const QString& path);
 
 public slots:
     void onExportProgress(int percentage);
@@ -32,9 +33,13 @@ private slots:
     void onBrowseClicked();
     void onExportClicked();
     void onCancelClicked();
-    void closeEvent(QCloseEvent *event);
+    void onDatesLoaded();
+protected:
+    void closeEvent(QCloseEvent *event) override;
 
 private:
+    void setupUI();
+
     QComboBox* m_startDateCombo;
     QComboBox* m_endDateCombo;
     QLineEdit* m_filePathEdit;
@@ -43,8 +48,9 @@ private:
     QPushButton* m_exportButton;
     QPushButton* m_cancelButton;
 
-    void setupUI();
-    void populateDateComboBoxes();
+    QFutureWatcher<QVector<QDate>>* m_dateWatcher;
+    bool m_datesLoaded;
+    bool m_closing;      // 关闭标志，防止关闭后更新控件
 };
 
 #endif // EXPORTDIALOG_H

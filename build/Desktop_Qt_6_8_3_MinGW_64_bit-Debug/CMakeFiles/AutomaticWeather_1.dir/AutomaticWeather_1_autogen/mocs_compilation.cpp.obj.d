@@ -467,17 +467,60 @@ CMakeFiles/AutomaticWeather_1.dir/AutomaticWeather_1_autogen/mocs_compilation.cp
  D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/ExportDialog.h \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QDialog \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qdialog.h \
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QDate \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QLineEdit \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qlineedit.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qtextcursor.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qtextdocument.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qurl.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qtextformat.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qpen.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qtextoption.h \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QProgressBar \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qprogressbar.h \
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QPushButton \
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qpushbutton.h \
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qabstractbutton.h \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QLabel \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qlabel.h \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qpicture.h \
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qtextdocument.h \
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qurl.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QPushButton \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qpushbutton.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qabstractbutton.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QFutureWatcher \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfuturewatcher.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfuture.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfutureinterface.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qmutex.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qresultstore.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfuture_impl.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qthreadpool.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qthread.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qrunnable.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qexception.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qpromise.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QDate \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QTableWidget \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qtablewidget.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qtableview.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qabstractitemview.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qabstractscrollarea.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qitemselectionmodel.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QTreeWidgetItem \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qtreewidget.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qtreeview.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qtreewidgetitemiterator.h \
+ D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/CompassWidget.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/QPainter \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qpainter.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/QPainterPath \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qpainterpath.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QtMath \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qmath.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QMessageBox \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qmessagebox.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qdialog.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qdialogbuttonbox.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QDebug \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qdebug.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QHeaderView \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qheaderview.h \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QFileDialog \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qfiledialog.h \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qdir.h \
@@ -517,33 +560,6 @@ CMakeFiles/AutomaticWeather_1.dir/AutomaticWeather_1_autogen/mocs_compilation.cp
  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_ops.h \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfileinfo.h \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtimezone.h \
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qdialog.h \
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QTableWidget \
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qtablewidget.h \
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qtableview.h \
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qabstractitemview.h \
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qabstractscrollarea.h \
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qitemselectionmodel.h \
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QTreeWidgetItem \
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qtreewidget.h \
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qtreeview.h \
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qtreewidgetitemiterator.h \
- D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/CompassWidget.h \
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/QPainter \
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qpainter.h \
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qtextoption.h \
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qpen.h \
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/QPainterPath \
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qpainterpath.h \
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QtMath \
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qmath.h \
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QMessageBox \
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qmessagebox.h \
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qdialogbuttonbox.h \
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QDebug \
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qdebug.h \
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QHeaderView \
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qheaderview.h \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QProgressDialog \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qprogressdialog.h \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QDateEdit \
@@ -561,8 +577,6 @@ CMakeFiles/AutomaticWeather_1.dir/AutomaticWeather_1_autogen/mocs_compilation.cp
  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/random.tcc \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QStringConverter \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qstringconverter.h \
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qtextcursor.h \
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qtextformat.h \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtmochelpers.h \
  D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\AutomaticWeather_1_autogen\EWIEGA46WW/moc_CompassWidget.cpp \
  D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/CompassWidget.h \

@@ -299,6 +299,9 @@ bool DatabaseManager::exportToCSV(const QString& filePath, const QDate& start, c
         return false;
     }
 
+    // 写入 UTF-8 BOM (EF BB BF)
+    const QByteArray bom = "\xEF\xBB\xBF";
+    file.write(bom);
     QTextStream stream(&file);
 // 使用条件编译处理不同Qt版本
 #if QT_VERSION >= QT_VERSION_CHECK(6, 0, 0)

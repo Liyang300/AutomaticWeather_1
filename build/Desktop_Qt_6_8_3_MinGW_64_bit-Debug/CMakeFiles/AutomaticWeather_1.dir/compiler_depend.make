@@ -32,6 +32,7 @@ CMakeFiles/AutomaticWeather_1.dir/AutomaticWeather_1.cpp.obj: D:/BIANJI/qt/Autom
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QDateTime \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QDebug \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QEventLoop \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QFutureWatcher \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QList \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QMargins \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QMutex \
@@ -94,6 +95,7 @@ CMakeFiles/AutomaticWeather_1.dir/AutomaticWeather_1.cpp.obj: D:/BIANJI/qt/Autom
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qelapsedtimer.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qendian.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qeventloop.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qexception.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qexceptionhandling.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfile.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfiledevice.h \
@@ -103,6 +105,10 @@ CMakeFiles/AutomaticWeather_1.dir/AutomaticWeather_1.cpp.obj: D:/BIANJI/qt/Autom
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qforeach.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfunctionaltools_impl.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfunctionpointer.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfuture.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfuture_impl.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfutureinterface.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfuturewatcher.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qgenericatomic.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qglobal.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qglobalstatic.h \
@@ -138,12 +144,15 @@ CMakeFiles/AutomaticWeather_1.dir/AutomaticWeather_1.cpp.obj: D:/BIANJI/qt/Autom
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qpair.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qpoint.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qprocessordetection.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qpromise.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qproperty.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qpropertyprivate.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qrandom.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qrect.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qrefcount.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qregularexpression.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qresultstore.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qrunnable.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qscopedpointer.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qscopeguard.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qset.h \
@@ -178,6 +187,7 @@ CMakeFiles/AutomaticWeather_1.dir/AutomaticWeather_1.cpp.obj: D:/BIANJI/qt/Autom
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtenvironmentvariables.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtextstream.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qthread.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qthreadpool.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtimer.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtimezone.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtmetamacros.h \
@@ -669,6 +679,7 @@ CMakeFiles/AutomaticWeather_1.dir/AutomaticWeather_1_autogen/mocs_compilation.cp
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QDateTime \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QDebug \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QEventLoop \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QFutureWatcher \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QList \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QMargins \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QMutex \
@@ -731,6 +742,7 @@ CMakeFiles/AutomaticWeather_1.dir/AutomaticWeather_1_autogen/mocs_compilation.cp
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qelapsedtimer.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qendian.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qeventloop.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qexception.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qexceptionhandling.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfile.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfiledevice.h \
@@ -740,6 +752,10 @@ CMakeFiles/AutomaticWeather_1.dir/AutomaticWeather_1_autogen/mocs_compilation.cp
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qforeach.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfunctionaltools_impl.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfunctionpointer.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfuture.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfuture_impl.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfutureinterface.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfuturewatcher.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qgenericatomic.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qglobal.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qglobalstatic.h \
@@ -775,12 +791,15 @@ CMakeFiles/AutomaticWeather_1.dir/AutomaticWeather_1_autogen/mocs_compilation.cp
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qpair.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qpoint.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qprocessordetection.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qpromise.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qproperty.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qpropertyprivate.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qrandom.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qrect.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qrefcount.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qregularexpression.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qresultstore.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qrunnable.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qscopedpointer.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qscopeguard.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qset.h \
@@ -815,6 +834,7 @@ CMakeFiles/AutomaticWeather_1.dir/AutomaticWeather_1_autogen/mocs_compilation.cp
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtenvironmentvariables.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtextstream.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qthread.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qthreadpool.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtimer.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtimezone.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtmetamacros.h \
@@ -924,6 +944,7 @@ CMakeFiles/AutomaticWeather_1.dir/AutomaticWeather_1_autogen/mocs_compilation.cp
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QGraphicsWidget \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QHeaderView \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QLabel \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QLineEdit \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QMessageBox \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QProgressBar \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QProgressDialog \
@@ -950,6 +971,7 @@ CMakeFiles/AutomaticWeather_1.dir/AutomaticWeather_1_autogen/mocs_compilation.cp
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qgraphicswidget.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qheaderview.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qlabel.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qlineedit.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qmessagebox.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qprogressbar.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qprogressdialog.h \
@@ -2846,46 +2868,105 @@ CMakeFiles/AutomaticWeather_1.dir/DatabaseManager.cpp.obj: D:/BIANJI/qt/Automati
   D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/DatabaseManager.h
 
 CMakeFiles/AutomaticWeather_1.dir/ExportDialog.cpp.obj: D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/ExportDialog.cpp \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtConcurrent/QtConcurrent \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtConcurrent/QtConcurrentDepends \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtConcurrent/qtaskbuilder.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtConcurrent/qtconcurrent_global.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtConcurrent/qtconcurrentcompilertest.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtConcurrent/qtconcurrentexports.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtConcurrent/qtconcurrentfilter.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtConcurrent/qtconcurrentfilterkernel.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtConcurrent/qtconcurrentfunctionwrappers.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtConcurrent/qtconcurrentiteratekernel.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtConcurrent/qtconcurrentmap.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtConcurrent/qtconcurrentmapkernel.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtConcurrent/qtconcurrentmedian.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtConcurrent/qtconcurrentreducekernel.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtConcurrent/qtconcurrentrun.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtConcurrent/qtconcurrentrunbase.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtConcurrent/qtconcurrentstoredfunctioncall.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtConcurrent/qtconcurrenttask.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtConcurrent/qtconcurrentthreadengine.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtConcurrent/qtconcurrentversion.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QDate \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QDateTime \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QDeadlineTimer \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QDebug \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QDir \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QFutureWatcher \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QHash \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QList \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QMap \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QMutex \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QObject \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QPointF \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QRect \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QSize \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QSizeF \
-  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QTimer \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QString \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QStringList \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QVariant \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QVector \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QtCore \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QtCoreDepends \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/q20algorithm.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/q20chrono.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/q20functional.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/q20iterator.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/q20map.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/q20memory.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/q20type_traits.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/q20utility.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/q20vector.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/q23functional.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/q23utility.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/q26numeric.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qabstractanimation.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qabstracteventdispatcher.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qabstractitemmodel.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qabstractnativeeventfilter.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qabstractproxymodel.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qalgorithms.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qanimationgroup.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qanystringview.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qapplicationstatic.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qarraydata.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qarraydataops.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qarraydatapointer.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qassert.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qassociativeiterable.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qatomic.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qatomic_cxx11.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qatomicscopedvaluerollback.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qbasicatomic.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qbasictimer.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qbindingstorage.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qbitarray.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qbuffer.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qbytearray.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qbytearrayalgorithms.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qbytearraylist.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qbytearraymatcher.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qbytearrayview.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qcache.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qcalendar.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qcborarray.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qcborcommon.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qcbormap.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qcborstream.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qcborstreamreader.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qcborstreamwriter.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qcborvalue.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qchar.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qchronotimer.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qcollator.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qcommandlineoption.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qcommandlineparser.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qcompare.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qcompare_impl.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qcomparehelpers.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qcompilerdetection.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qconcatenatetablesproxymodel.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qconfig.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qconstructormacros.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qcontainerfwd.h \
@@ -2895,46 +2976,73 @@ CMakeFiles/AutomaticWeather_1.dir/ExportDialog.cpp.obj: D:/BIANJI/qt/AutomaticWe
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qcoreapplication.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qcoreapplication_platform.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qcoreevent.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qcryptographichash.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qdarwinhelpers.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qdatastream.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qdatetime.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qdeadlinetimer.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qdebug.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qdir.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qdiriterator.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qdirlisting.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qeasingcurve.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qelapsedtimer.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qendian.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qeventloop.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qexception.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qexceptionhandling.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfactoryinterface.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfile.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfiledevice.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfileinfo.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfileselector.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfilesystemwatcher.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qflags.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfloat16.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qforeach.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfunctionaltools_impl.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfunctionpointer.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfuture.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfuture_impl.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfutureinterface.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfuturesynchronizer.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfuturewatcher.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qgenericatomic.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qglobal.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qglobalstatic.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qhash.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qhashfunctions.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qidentityproxymodel.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qiodevice.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qiodevicebase.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qitemselectionmodel.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qiterable.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qiterator.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qjsonarray.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qjsondocument.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qjsonobject.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qjsonvalue.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qlatin1stringmatcher.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qlatin1stringview.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qlibrary.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qlibraryinfo.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qline.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qlist.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qlocale.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qlockfile.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qlogging.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qloggingcategory.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qmalloc.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qmap.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qmargins.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qmath.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qmessageauthenticationcode.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qmetacontainer.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qmetaobject.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qmetatype.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qmimedata.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qmimedatabase.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qmimetype.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qminmax.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qmutex.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qnamespace.h \
@@ -2942,24 +3050,59 @@ CMakeFiles/AutomaticWeather_1.dir/ExportDialog.cpp.obj: D:/BIANJI/qt/AutomaticWe
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qnumeric.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qobject.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qobject_impl.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qobjectcleanuphandler.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qobjectdefs.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qobjectdefs_impl.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qoperatingsystemversion.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qoverload.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qpair.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qparallelanimationgroup.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qpauseanimation.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qpermissions.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qplugin.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qpluginloader.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qpoint.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qpointer.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qprocess.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qprocessordetection.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qpromise.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qproperty.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qpropertyanimation.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qpropertyprivate.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qqueue.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qrandom.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qreadwritelock.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qrect.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qrefcount.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qregularexpression.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qresource.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qresultstore.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qrunnable.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qsavefile.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qscopedpointer.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qscopedvaluerollback.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qscopeguard.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qsemaphore.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qsequentialanimationgroup.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qsequentialiterable.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qset.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qsettings.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qshareddata.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qshareddata_impl.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qsharedmemory.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qsharedpointer.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qsharedpointer_impl.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qsignalmapper.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qsimd.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qsize.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qsocketnotifier.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qsortfilterproxymodel.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qspan.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qstack.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qstandardpaths.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qstaticlatin1stringmatcher.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qstdlibdetection.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qstorageinfo.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qstring.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qstringalgorithms.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qstringbuilder.h \
@@ -2967,6 +3110,7 @@ CMakeFiles/AutomaticWeather_1.dir/ExportDialog.cpp.obj: D:/BIANJI/qt/AutomaticWe
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qstringconverter_base.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qstringfwd.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qstringlist.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qstringlistmodel.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qstringliteral.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qstringmatcher.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qstringtokenizer.h \
@@ -2974,35 +3118,60 @@ CMakeFiles/AutomaticWeather_1.dir/ExportDialog.cpp.obj: D:/BIANJI/qt/AutomaticWe
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qswap.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qsysinfo.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qsystemdetection.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qsystemsemaphore.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtaggedpointer.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtclasshelpermacros.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtconfiginclude.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtconfigmacros.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtcore-config.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtcoreexports.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtcoreversion.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtdeprecationdefinitions.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtdeprecationmarkers.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtemporarydir.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtemporaryfile.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtenvironmentvariables.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtextboundaryfinder.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtextstream.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qthread.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qthreadpool.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qthreadstorage.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtimeline.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtimer.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtimezone.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtipccommon.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtmetamacros.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtnoop.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtpreprocessorsupport.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtranslator.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtransposeproxymodel.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtresource.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtsan_impl.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtsymbolmacros.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qttranslation.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qttypetraits.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtversion.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtversionchecks.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtypeinfo.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtyperevision.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtypes.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qurl.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qurlquery.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qutf8stringview.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/quuid.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qvariant.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qvariantanimation.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qvarianthash.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qvariantlist.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qvariantmap.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qvarlengtharray.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qvector.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qversionnumber.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qversiontagging.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qwaitcondition.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qwineventnotifier.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qxmlstream.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qxpfunctional.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qxptype_traits.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qyieldcpu.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/QCloseEvent \
@@ -3101,6 +3270,48 @@ CMakeFiles/AutomaticWeather_1.dir/ExportDialog.cpp.obj: D:/BIANJI/qt/AutomaticWe
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qtwidgetsexports.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qwidget.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/adxintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/amxbf16intrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/amxcomplexintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/amxfp16intrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/amxint8intrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/amxtileintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx2intrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx5124fmapsintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx5124vnniwintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512bf16intrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512bf16vlintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512bitalgintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512bwintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512cdintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512dqintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512erintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512fintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512fp16intrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512fp16vlintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512ifmaintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512ifmavlintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512pfintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vbmi2intrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vbmi2vlintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vbmiintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vbmivlintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vlbwintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vldqintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vlintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vnniintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vnnivlintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vp2intersectintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vp2intersectvlintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vpopcntdqintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vpopcntdqvlintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avxifmaintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avxintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avxneconvertintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avxvnniint8intrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avxvnniintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/bmi2intrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/bmiintrin.h \
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/algorithm \
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/array \
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/atomic \
@@ -3113,6 +3324,7 @@ CMakeFiles/AutomaticWeather_1.dir/ExportDialog.cpp.obj: D:/BIANJI/qt/AutomaticWe
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocated_ptr.h \
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocator.h \
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_base.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_futex.h \
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_lockfree_defines.h \
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.h \
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.tcc \
@@ -3165,6 +3377,8 @@ CMakeFiles/AutomaticWeather_1.dir/ExportDialog.cpp.obj: D:/BIANJI/qt/AutomaticWe
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/predefined_ops.h \
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ptr_traits.h \
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/quoted_string.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/random.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/random.tcc \
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/range_access.h \
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/refwrap.h \
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
@@ -3175,6 +3389,8 @@ CMakeFiles/AutomaticWeather_1.dir/ExportDialog.cpp.obj: D:/BIANJI/qt/AutomaticWe
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/sstream.tcc \
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_abs.h \
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_function.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_mutex.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_thread.h \
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_algo.h \
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_algobase.h \
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_bvector.h \
@@ -3201,6 +3417,7 @@ CMakeFiles/AutomaticWeather_1.dir/ExportDialog.cpp.obj: D:/BIANJI/qt/AutomaticWe
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/string_view.tcc \
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stringfwd.h \
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uniform_int_dist.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/unique_lock.h \
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/unique_ptr.h \
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/unordered_map.h \
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uses_allocator.h \
@@ -3216,6 +3433,7 @@ CMakeFiles/AutomaticWeather_1.dir/ExportDialog.cpp.obj: D:/BIANJI/qt/AutomaticWe
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cmath \
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/codecvt \
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/compare \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/condition_variable \
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstddef \
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdint \
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdio \
@@ -3227,6 +3445,7 @@ CMakeFiles/AutomaticWeather_1.dir/ExportDialog.cpp.obj: D:/BIANJI/qt/AutomaticWe
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/debug/assertions.h \
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/debug/debug.h \
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/exception \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/experimental/source_location \
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/aligned_buffer.h \
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/alloc_traits.h \
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/atomicity.h \
@@ -3236,6 +3455,7 @@ CMakeFiles/AutomaticWeather_1.dir/ExportDialog.cpp.obj: D:/BIANJI/qt/AutomaticWe
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/type_traits.h \
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/filesystem \
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/functional \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/future \
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/initializer_list \
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iomanip \
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ios \
@@ -3247,6 +3467,8 @@ CMakeFiles/AutomaticWeather_1.dir/ExportDialog.cpp.obj: D:/BIANJI/qt/AutomaticWe
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/locale \
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/map \
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/memory \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/memory_resource \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/mutex \
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/new \
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/numeric \
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/optional \
@@ -3256,7 +3478,9 @@ CMakeFiles/AutomaticWeather_1.dir/ExportDialog.cpp.obj: D:/BIANJI/qt/AutomaticWe
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_memory_defs.h \
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_numeric_defs.h \
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/pstl_config.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/random \
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ratio \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/shared_mutex \
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/sstream \
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stdexcept \
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stdlib.h \
@@ -3295,15 +3519,67 @@ CMakeFiles/AutomaticWeather_1.dir/ExportDialog.cpp.obj: D:/BIANJI/qt/AutomaticWe
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/messages_members.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/opt_random.h \
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/time_members.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/cetintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/cldemoteintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/clflushoptintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/clwbintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/clzerointrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/cmpccxaddintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/emmintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/enqcmdintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/f16cintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/fmaintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/fxsrintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/gfniintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/hresetintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/ia32intrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/immintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/keylockerintrin.h \
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/limits.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/lwpintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/lzcntintrin.h \
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mm_malloc.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mmintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/movdirintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mwaitintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mwaitxintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/pconfigintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/pkuintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/pmmintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/popcntintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/prfchiintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/prfchwintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/raointintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/rdseedintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/rtmintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/serializeintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/sgxintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/shaintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/smmintrin.h \
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdarg.h \
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdbool.h \
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stddef.h \
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdint.h \
   D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/syslimits.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/tbmintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/tmmintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/tsxldtrkintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/uintrintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/vaesintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/vpclmulqdqintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/waitpkgintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/wbnoinvdintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/wmmintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/x86gprintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/xmmintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/xsavecintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/xsaveintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/xsaveoptintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/xsavesintrin.h \
+  D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/xtestintrin.h \
   D:/QT/QT6.8/Tools/mingw1310_64/x86_64-w64-mingw32/include/_mingw.h \
   D:/QT/QT6.8/Tools/mingw1310_64/x86_64-w64-mingw32/include/_mingw_mac.h \
   D:/QT/QT6.8/Tools/mingw1310_64/x86_64-w64-mingw32/include/_mingw_off_t.h \
@@ -4468,6 +4744,7 @@ CMakeFiles/AutomaticWeather_1.dir/main.cpp.obj: D:/BIANJI/qt/AutomaticWeather_1/
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QDateTime \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QDebug \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QEventLoop \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QFutureWatcher \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QMutex \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QObject \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QPointF \
@@ -4524,6 +4801,7 @@ CMakeFiles/AutomaticWeather_1.dir/main.cpp.obj: D:/BIANJI/qt/AutomaticWeather_1/
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qelapsedtimer.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qendian.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qeventloop.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qexception.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qexceptionhandling.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfile.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfiledevice.h \
@@ -4533,6 +4811,10 @@ CMakeFiles/AutomaticWeather_1.dir/main.cpp.obj: D:/BIANJI/qt/AutomaticWeather_1/
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qforeach.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfunctionaltools_impl.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfunctionpointer.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfuture.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfuture_impl.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfutureinterface.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfuturewatcher.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qgenericatomic.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qglobal.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qglobalstatic.h \
@@ -4568,12 +4850,15 @@ CMakeFiles/AutomaticWeather_1.dir/main.cpp.obj: D:/BIANJI/qt/AutomaticWeather_1/
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qpair.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qpoint.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qprocessordetection.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qpromise.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qproperty.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qpropertyprivate.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qrandom.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qrect.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qrefcount.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qregularexpression.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qresultstore.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qrunnable.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qscopedpointer.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qscopeguard.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qset.h \
@@ -4608,6 +4893,7 @@ CMakeFiles/AutomaticWeather_1.dir/main.cpp.obj: D:/BIANJI/qt/AutomaticWeather_1/
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtenvironmentvariables.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtextstream.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qthread.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qthreadpool.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtimer.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtimezone.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtmetamacros.h \
@@ -4657,7 +4943,9 @@ CMakeFiles/AutomaticWeather_1.dir/main.cpp.obj: D:/BIANJI/qt/AutomaticWeather_1/
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qregion.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qrgb.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qrgba64.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qtextcursor.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qtextdocument.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qtextformat.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qtextoption.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qtgui-config.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qtguiexports.h \
@@ -4700,6 +4988,7 @@ CMakeFiles/AutomaticWeather_1.dir/main.cpp.obj: D:/BIANJI/qt/AutomaticWeather_1/
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QFileDialog \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QHeaderView \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QLabel \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QLineEdit \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QMessageBox \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QProgressBar \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QProgressDialog \
@@ -4722,6 +5011,7 @@ CMakeFiles/AutomaticWeather_1.dir/main.cpp.obj: D:/BIANJI/qt/AutomaticWeather_1/
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qframe.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qheaderview.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qlabel.h \
+  D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qlineedit.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qmessagebox.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qprogressbar.h \
   D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qprogressdialog.h \
@@ -5035,11 +5325,15 @@ D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bit
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QPlainTextEdit:
 
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/q20chrono.h:
+
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qtextedit.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QVariant:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qdirlisting.h:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/sgxintrin.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCharts/qlineseries.h:
 
@@ -5049,9 +5343,13 @@ D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bit
 
 D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/CompassWidget.h:
 
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qrunnable.h:
+
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/numeric:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QGraphicsView:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/adxintrin.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qanystringview.h:
 
@@ -5066,6 +5364,8 @@ D:/QT/QT6.8/6.8.3/mingw_64/include/QtSerialPort/qserialportinfo.h:
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qboxlayout.h:
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/experimental/source_location:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qcborstreamwriter.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qarraydataops.h:
 
@@ -5107,11 +5407,15 @@ D:/QT/QT6.8/6.8.3/mingw_64/include/QtCharts/QDateTimeAxis:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/QPainterPath:
 
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vp2intersectintrin.h:
+
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCharts/QLegend:
 
 D:/QT/QT6.8/Tools/mingw1310_64/x86_64-w64-mingw32/include/pthread.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QSize:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/cetintrin.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QDir:
 
@@ -5127,13 +5431,15 @@ D:/QT/QT6.8/6.8.3/mingw_64/include/QtSerialBus/qtserialbus-config.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCharts/QValueAxis:
 
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qabstractanimation.h:
+
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCharts/QXYSeries:
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_list.h:
 
-D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iterator:
-
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCharts/qabstractaxis.h:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vnniintrin.h:
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/new:
 
@@ -5153,6 +5459,8 @@ D:/QT/QT6.8/6.8.3/mingw_64/include/QtCharts/qchartview.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QCoreApplication:
 
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/quuid.h:
+
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/QPainter:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCharts/qlegend.h:
@@ -5160,6 +5468,8 @@ D:/QT/QT6.8/6.8.3/mingw_64/include/QtCharts/qlegend.h:
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/invoke.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCharts/qtcharts-config.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qoperatingsystemversion.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QList:
 
@@ -5171,6 +5481,8 @@ D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QLineEdit:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCharts/qvalueaxis.h:
 
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vbmivlintrin.h:
+
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/q20type_traits.h:
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator.h:
@@ -5179,13 +5491,19 @@ D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QHeaderView:
 
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qatomicscopedvaluerollback.h:
+
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/erase_if.h:
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/hash_bytes.h:
 
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qcommandlineoption.h:
+
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCharts/qxyseries.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qscreen_platform.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qstaticlatin1stringmatcher.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QDate:
 
@@ -5197,6 +5515,8 @@ D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bit
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qhashfunctions.h:
 
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/prfchwintrin.h:
+
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QDateTime:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QDebug:
@@ -5205,9 +5525,17 @@ D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qprocessordetection.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qarraydatapointer.h:
 
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/amxbf16intrin.h:
+
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator_base_funcs.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QEventLoop:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QFutureWatcher:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qbytearray.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qobjectdefs.h:
 
@@ -5217,7 +5545,11 @@ D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QMargins:
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward/auto_ptr.h:
 
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/q20algorithm.h:
+
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QObject:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qapplicationstatic.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QPointF:
 
@@ -5247,11 +5579,15 @@ D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QTimer:
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_base.h:
 
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/map:
+
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qatomic.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qtextlayout.h:
 
-D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/map:
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mwaitxintrin.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtConcurrent/qtconcurrentfunctionwrappers.h:
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tuple:
 
@@ -5275,21 +5611,27 @@ D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/q20utility.h:
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uses_allocator_args.h:
 
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtimeline.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qthreadstorage.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qcborvalue.h:
+
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/q23utility.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qcontainertools_impl.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qresource.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qabstractitemmodel.h:
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cerrno:
 
-D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/shared_ptr_atomic.h:
-
-D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qbindingstorage.h:
-
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qassert.h:
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memoryfwd.h:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512fp16intrin.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtSerialBus/qmodbusdataunit.h:
 
@@ -5297,9 +5639,9 @@ D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qatomic_cxx11.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qbasictimer.h:
 
-D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h:
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/shared_ptr_atomic.h:
 
-D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qbytearray.h:
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qbindingstorage.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qbytearrayalgorithms.h:
 
@@ -5317,6 +5659,8 @@ D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qcalendar.h:
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward/binders.h:
 
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qcbormap.h:
+
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qchar.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QTimeZone:
@@ -5324,6 +5668,8 @@ D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QTimeZone:
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qvector2d.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtSerialBus/qmodbusdevice.h:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/tsxldtrkintrin.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qcompare.h:
 
@@ -5345,19 +5691,23 @@ D:/QT/QT6.8/6.8.3/mingw_64/include/QtSerialPort/qtserialportexports.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QProgressBar:
 
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtsymbolmacros.h:
+
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtSerialBus/qmodbusreply.h:
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/random.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qconstructormacros.h:
 
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qexception.h:
+
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qimage.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qcontainerfwd.h:
 
-D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qcontainerinfo.h:
-
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/locale:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qcontainerinfo.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qcoreapplication.h:
 
@@ -5421,6 +5771,8 @@ D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qflags.h:
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstring:
 
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qvariantlist.h:
+
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfloat16.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfunctionaltools_impl.h:
@@ -5429,7 +5781,25 @@ D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/typ
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/QFont:
 
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512bwintrin.h:
+
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfunctionpointer.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfuture.h:
+
+AutomaticWeather_1_autogen/EWIEGA46WW/moc_DatabaseManager.cpp:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfuture_impl.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qnativeinterface.h:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_string.tcc:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfutureinterface.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfuturewatcher.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtsan_impl.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qgenericatomic.h:
 
@@ -5438,6 +5808,8 @@ D:/QT/QT6.8/Tools/mingw1310_64/x86_64-w64-mingw32/include/errno.h:
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qglobal.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qglobalstatic.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qmimetype.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qhash.h:
 
@@ -5451,6 +5823,10 @@ D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bit
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qitemselectionmodel.h:
 
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/xsaveintrin.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtranslator.h:
+
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qiterable.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qstringbuilder.h:
@@ -5458,6 +5834,10 @@ D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qstringbuilder.h:
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QTableWidget:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qpushbutton.h:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/immintrin.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qbuffer.h:
 
 D:/QT/QT6.8/Tools/mingw1310_64/x86_64-w64-mingw32/include/process.h:
 
@@ -5470,6 +5850,8 @@ D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bit
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qline.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qlist.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qsequentialanimationgroup.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qcursor.h:
 
@@ -5491,6 +5873,8 @@ D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtcoreexports.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qformlayout.h:
 
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qparallelanimationgroup.h:
+
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qmetacontainer.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qgraphicslayoutitem.h:
@@ -5505,9 +5889,15 @@ D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qmetatype.h:
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_fwd.h:
 
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/xsaveoptintrin.h:
+
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qrawfont.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qminmax.h:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/amxcomplexintrin.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qlibraryinfo.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qmutex.h:
 
@@ -5515,23 +5905,33 @@ D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qwindowdefs_win.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qnamespace.h:
 
-AutomaticWeather_1_autogen/EWIEGA46WW/moc_DatabaseManager.cpp:
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/bmi2intrin.h:
 
-D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qnativeinterface.h:
-
-D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_string.tcc:
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vldqintrin.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qnumeric.h:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512erintrin.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qobject.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qobject_impl.h:
 
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx2intrin.h:
+
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qoverload.h:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avxneconvertintrin.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qpair.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qpoint.h:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/postypes.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qpromise.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qcborcommon.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qproperty.h:
 
@@ -5551,6 +5951,8 @@ D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qrect.h:
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/shared_ptr.h:
 
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtConcurrent/QtConcurrentDepends:
+
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qrefcount.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qregularexpression.h:
@@ -5559,17 +5961,27 @@ D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qscreen.h:
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cpp_type_traits.h:
 
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qresultstore.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QTreeWidget:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/bmiintrin.h:
+
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qplaintextedit.h:
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/utility:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qscopedpointer.h:
 
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtcoreversion.h:
+
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qscopeguard.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qset.h:
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_function.h:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/uintrintrin.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qpen.h:
 
@@ -5595,6 +6007,8 @@ D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qabstractslider.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qgraphicsitem.h:
 
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/vpclmulqdqintrin.h:
+
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qspan.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qstringconverter.h:
@@ -5608,6 +6022,8 @@ D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qstringconverter_base.h:
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qstringlist.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QGraphicsWidget:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vbmi2intrin.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtnoop.h:
 
@@ -5624,6 +6040,8 @@ D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qstringview.h:
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qsysinfo.h:
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/enable_special_members.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qsharedmemory.h:
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/poly_hermite.tcc:
 
@@ -5655,6 +6073,10 @@ D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtextstream.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qthread.h:
 
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qthreadpool.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qdiriterator.h:
+
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtSerialBus/QModbusRtuSerialClient:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtimer.h:
@@ -5666,8 +6088,6 @@ D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtmetamacros.h:
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/hashtable.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtresource.h:
-
-D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtsan_impl.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qttranslation.h:
 
@@ -5683,6 +6103,8 @@ D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bit
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtversionchecks.h:
 
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtConcurrent/qtconcurrenttask.h:
+
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtypeinfo.h:
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/hashtable_policy.h:
@@ -5690,6 +6112,8 @@ D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bit
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtypes.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qtreeview.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qsocketnotifier.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qurl.h:
 
@@ -5700,8 +6124,6 @@ D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qguiapplication.h:
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_relops.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtSerialPort/qserialport.h:
-
-D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/list:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qvariant.h:
 
@@ -5724,6 +6146,8 @@ D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qyieldcpu.h:
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/QBrush:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/QCloseEvent:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qvariantmap.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/QImage:
 
@@ -5753,7 +6177,13 @@ D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qevent.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qeventpoint.h:
 
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512bf16vlintrin.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfactoryinterface.h:
+
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qfont.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qcborstream.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qfontdatabase.h:
 
@@ -5781,6 +6211,8 @@ D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bit
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/chrono:
 
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qurlquery.h:
+
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qinputmethod.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qkeysequence.h:
@@ -5795,13 +6227,17 @@ D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bit
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/charconv.h:
 
-D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qpicture.h:
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qtwidgetsexports.h:
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/memory:
 
-D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qtwidgetsexports.h:
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qpicture.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QDeadlineTimer:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qpixmap.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qbitarray.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qpolygon.h:
 
@@ -5817,11 +6253,15 @@ D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qtextdocument.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qtransform.h:
 
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/clzerointrin.h:
+
 D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/DataBuffer.cpp:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qtextoption.h:
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/initializer_list:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/shared_mutex:
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/list.tcc:
 
@@ -5831,6 +6271,8 @@ D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qgridlayout.h:
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_futex.h:
 
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/hresetintrin.h:
+
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qvalidator.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtSerialBus/QModbusDataUnit:
@@ -5838,6 +6280,8 @@ D:/QT/QT6.8/6.8.3/mingw_64/include/QtSerialBus/QModbusDataUnit:
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ios_base.h:
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_tempbuf.h:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/wbnoinvdintrin.h:
 
 D:/QT/QT6.8/Tools/mingw1310_64/x86_64-w64-mingw32/include/crtdefs.h:
 
@@ -5850,6 +6294,8 @@ D:/QT/QT6.8/6.8.3/mingw_64/include/QtSerialBus/qmodbusrtuserialclient.h:
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtSerialBus/qtserialbusexports.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtSerialBus/qtserialbusglobal.h:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/xsavesintrin.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtSerialPort/QSerialPort:
 
@@ -5867,11 +6313,15 @@ D:/QT/QT6.8/6.8.3/mingw_64/include/QtSql/qsqlerror.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtSql/qsqlquery.h:
 
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qreadwritelock.h:
+
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtSql/qtsql-config.h:
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/climits:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtSql/qtsqlexports.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qcache.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtSql/qtsqlglobal.h:
 
@@ -5880,6 +6330,8 @@ D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bit
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QApplication:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/xtestintrin.h:
 
 D:/QT/QT6.8/Tools/mingw1310_64/x86_64-w64-mingw32/include/pthread_time.h:
 
@@ -5892,6 +6344,8 @@ D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QFileDialog:
 D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/ExportDialog.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QFrame:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qpropertyanimation.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QHBoxLayout:
 
@@ -5919,9 +6373,11 @@ D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/SerialPortManager.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QSpacerItem:
 
-D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QTreeWidget:
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qidentityproxymodel.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qabstractspinbox.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QString:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QTreeWidgetItem:
 
@@ -5935,19 +6391,29 @@ D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qabstractscrollarea.h:
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_heap.h:
 
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/q23functional.h:
+
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qapplication.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qdatetimeedit.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qdialog.h:
 
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qjsonarray.h:
+
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qdialogbuttonbox.h:
 
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtConcurrent/qtconcurrentexports.h:
+
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qgraphicsview.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfileselector.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qgraphicswidget.h:
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memory_resource.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtConcurrent/qtconcurrentiteratekernel.h:
 
 D:/QT/QT6.8/Tools/mingw1310_64/x86_64-w64-mingw32/include/_mingw_stdarg.h:
 
@@ -5957,11 +6423,15 @@ D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qheaderview.h:
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstddef:
 
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QHash:
+
 D:/QT/QT6.8/Tools/mingw1310_64/x86_64-w64-mingw32/include/pthread_signal.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qlabel.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qlayoutitem.h:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx5124vnniwintrin.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qlcdnumber.h:
 
@@ -5985,11 +6455,13 @@ D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qslider.h:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qstyleoption.h:
 
-D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qtreewidget.h:
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qtwidgets-config.h:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/cmpccxaddintrin.h:
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iomanip:
 
-D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qtwidgets-config.h:
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qtreewidget.h:
 
 D:/QT/QT6.8/Tools/mingw1310_64/x86_64-w64-mingw32/include/swprintf.inl:
 
@@ -6007,6 +6479,8 @@ D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bit
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/algorithmfwd.h:
 
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vbmiintrin.h:
+
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocated_ptr.h:
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocator.h:
@@ -6021,13 +6495,21 @@ D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bit
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_map.h:
 
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/rtmintrin.h:
+
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/codecvt.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qstdlibdetection.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qsequentialiterable.h:
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/concept_check.h:
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/exception_ptr.h:
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_dir.h:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/raointintrin.h:
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_ops.h:
 
@@ -6036,6 +6518,8 @@ D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bit
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.h:
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_multimap.h:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512ifmavlintrin.h:
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.tcc:
 
@@ -6051,6 +6535,8 @@ D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bit
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwchar:
 
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/popcntintrin.h:
+
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/localefwd.h:
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/nested_exception.h:
@@ -6059,9 +6545,13 @@ D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bit
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/node_handle.h:
 
-D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream_insert.h:
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vpopcntdqvlintrin.h:
 
-D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/postypes.h:
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtemporaryfile.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qcborstreamreader.h:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream_insert.h:
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/predefined_ops.h:
 
@@ -6079,7 +6569,11 @@ D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bit
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/sstream.tcc:
 
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qlatin1stringmatcher.h:
+
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_abs.h:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vp2intersectvlintrin.h:
 
 D:/QT/QT6.8/Tools/mingw1310_64/x86_64-w64-mingw32/include/limits.h:
 
@@ -6105,6 +6599,8 @@ D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bit
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_raw_storage_iter.h:
 
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vlintrin.h:
+
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_tree.h:
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_uninitialized.h:
@@ -6116,6 +6612,8 @@ D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/SensorDataParser.h:
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stringfwd.h:
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/unique_lock.h:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/pconfigintrin.h:
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/vector.tcc:
 
@@ -6153,11 +6651,19 @@ D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/fut
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ios:
 
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vpopcntdqintrin.h:
+
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iosfwd:
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream:
 
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iterator:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QStringList:
+
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/limits:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/list:
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ratio:
 
@@ -6193,11 +6699,15 @@ D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/hypergeometric.tcc:
 
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/ia32intrin.h:
+
 D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/CompassWidget.cpp:
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/legendre_function.tcc:
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/poly_laguerre.tcc:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtConcurrent/qtconcurrentcompilertest.h:
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/riemann_zeta.tcc:
 
@@ -6208,6 +6718,8 @@ D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/uno
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/variant:
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/version:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/q20map.h:
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h:
 
@@ -6221,15 +6733,21 @@ D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h:
 
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qplugin.h:
+
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h:
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/gthr.h:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512pfintrin.h:
 
 D:/QT/QT6.8/Tools/mingw1310_64/x86_64-w64-mingw32/include/stdio.h:
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/messages_members.h:
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/opt_random.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtConcurrent/qtconcurrentthreadengine.h:
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/time_members.h:
 
@@ -6244,6 +6762,8 @@ D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mwaitin
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdarg.h:
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdbool.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qxmlstream.h:
 
 D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdint.h:
 
@@ -6261,11 +6781,15 @@ D:/QT/QT6.8/Tools/mingw1310_64/x86_64-w64-mingw32/include/assert.h:
 
 D:/QT/QT6.8/Tools/mingw1310_64/x86_64-w64-mingw32/include/corecrt.h:
 
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qabstractproxymodel.h:
+
 D:/QT/QT6.8/Tools/mingw1310_64/x86_64-w64-mingw32/include/corecrt_startup.h:
 
 D:/QT/QT6.8/Tools/mingw1310_64/x86_64-w64-mingw32/include/corecrt_stdio_config.h:
 
 D:/QT/QT6.8/Tools/mingw1310_64/x86_64-w64-mingw32/include/ctype.h:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/amxtileintrin.h:
 
 D:/QT/QT6.8/Tools/mingw1310_64/x86_64-w64-mingw32/include/wctype.h:
 
@@ -6283,6 +6807,8 @@ D:/QT/QT6.8/Tools/mingw1310_64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h:
 
 D:/QT/QT6.8/Tools/mingw1310_64/x86_64-w64-mingw32/include/signal.h:
 
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/lwpintrin.h:
+
 D:/QT/QT6.8/Tools/mingw1310_64/x86_64-w64-mingw32/include/stdarg.h:
 
 D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/DataBuffer.h:
@@ -6292,6 +6818,8 @@ D:/QT/QT6.8/Tools/mingw1310_64/x86_64-w64-mingw32/include/stddef.h:
 D:/QT/QT6.8/Tools/mingw1310_64/x86_64-w64-mingw32/include/stdlib.h:
 
 D:/QT/QT6.8/Tools/mingw1310_64/x86_64-w64-mingw32/include/string.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qstringlistmodel.h:
 
 D:/QT/QT6.8/Tools/mingw1310_64/x86_64-w64-mingw32/include/sys/timeb.h:
 
@@ -6309,9 +6837,15 @@ AutomaticWeather_1_autogen/EWIEGA46WW/moc_CompassWidget.cpp:
 
 AutomaticWeather_1_autogen/EWIEGA46WW/moc_CustomChartWidget.cpp:
 
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/amxint8intrin.h:
+
 AutomaticWeather_1_autogen/EWIEGA46WW/moc_DataBuffer.cpp:
 
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qsimd.h:
+
 AutomaticWeather_1_autogen/EWIEGA46WW/moc_ModbusManager.cpp:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qsettings.h:
 
 AutomaticWeather_1_autogen/EWIEGA46WW/moc_SensorDataParser.cpp:
 
@@ -6322,6 +6856,224 @@ D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/CustomChartWidget.cpp:
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QFile:
 
 D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QTextStream:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtConcurrent/QtConcurrent:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtransposeproxymodel.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtConcurrent/qtaskbuilder.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtConcurrent/qtconcurrentmap.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtConcurrent/qtconcurrent_global.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtConcurrent/qtconcurrentfilter.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtConcurrent/qtconcurrentfilterkernel.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtConcurrent/qtconcurrentmapkernel.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qloggingcategory.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qabstractnativeeventfilter.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtConcurrent/qtconcurrentmedian.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtConcurrent/qtconcurrentreducekernel.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtConcurrent/qtconcurrentrun.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtConcurrent/qtconcurrentrunbase.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtConcurrent/qtconcurrentstoredfunctioncall.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtConcurrent/qtconcurrentversion.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QMap:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QtCore:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QtCoreDepends:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/q20vector.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/q26numeric.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qabstracteventdispatcher.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qanimationgroup.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qassociativeiterable.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qbytearraymatcher.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qcborarray.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qchronotimer.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qcollator.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qcommandlineparser.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qconcatenatetablesproxymodel.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qcryptographichash.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qeasingcurve.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfilesystemwatcher.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qscopedvaluerollback.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qfuturesynchronizer.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qjsondocument.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qjsonobject.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qjsonvalue.h:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512ifmaintrin.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qlibrary.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qlockfile.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qmessageauthenticationcode.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qmimedata.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qmimedatabase.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qobjectcleanuphandler.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qpauseanimation.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qpermissions.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qpluginloader.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qpointer.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qprocess.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qqueue.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qsavefile.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qsemaphore.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qsignalmapper.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qsortfilterproxymodel.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qstack.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qstandardpaths.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qstorageinfo.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qsystemsemaphore.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtemporarydir.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtextboundaryfinder.h:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512cdintrin.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtipccommon.h:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/prfchiintrin.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtyperevision.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qvariantanimation.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qvarianthash.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qversionnumber.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qwaitcondition.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qwineventnotifier.h:
+
+D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qxpfunctional.h:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/amxfp16intrin.h:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx5124fmapsintrin.h:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512bf16intrin.h:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512bitalgintrin.h:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avxvnniintrin.h:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512dqintrin.h:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512fintrin.h:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512fp16vlintrin.h:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vbmi2vlintrin.h:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vlbwintrin.h:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vnnivlintrin.h:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avxifmaintrin.h:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avxintrin.h:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avxvnniint8intrin.h:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/memory_resource:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/cldemoteintrin.h:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/clflushoptintrin.h:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/clwbintrin.h:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/enqcmdintrin.h:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/f16cintrin.h:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/fmaintrin.h:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/fxsrintrin.h:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/gfniintrin.h:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/keylockerintrin.h:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/lzcntintrin.h:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/movdirintrin.h:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/pkuintrin.h:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/rdseedintrin.h:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/serializeintrin.h:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/shaintrin.h:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/smmintrin.h:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/tbmintrin.h:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/tmmintrin.h:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/vaesintrin.h:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/waitpkgintrin.h:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/wmmintrin.h:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/x86gprintrin.h:
+
+D:/QT/QT6.8/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/xsavecintrin.h:
 
 D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/ModbusManager.cpp:
 
