@@ -83,184 +83,201 @@ CMakeFiles/AutomaticWeather_1.dir/AutomaticWeather_1_autogen/mocs_compilation.cp
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AutomaticWeather_1.dir/AutomaticWeather_1_autogen/mocs_compilation.cpp.s"
 	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\AutomaticWeather_1_autogen\mocs_compilation.cpp -o CMakeFiles\AutomaticWeather_1.dir\AutomaticWeather_1_autogen\mocs_compilation.cpp.s
 
-CMakeFiles/AutomaticWeather_1.dir/main.cpp.obj: CMakeFiles/AutomaticWeather_1.dir/flags.make
-CMakeFiles/AutomaticWeather_1.dir/main.cpp.obj: CMakeFiles/AutomaticWeather_1.dir/includes_CXX.rsp
-CMakeFiles/AutomaticWeather_1.dir/main.cpp.obj: D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/main.cpp
-CMakeFiles/AutomaticWeather_1.dir/main.cpp.obj: CMakeFiles/AutomaticWeather_1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/AutomaticWeather_1.dir/main.cpp.obj"
-	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AutomaticWeather_1.dir/main.cpp.obj -MF CMakeFiles\AutomaticWeather_1.dir\main.cpp.obj.d -o CMakeFiles\AutomaticWeather_1.dir\main.cpp.obj -c D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\main.cpp
+CMakeFiles/AutomaticWeather_1.dir/source/main.cpp.obj: CMakeFiles/AutomaticWeather_1.dir/flags.make
+CMakeFiles/AutomaticWeather_1.dir/source/main.cpp.obj: CMakeFiles/AutomaticWeather_1.dir/includes_CXX.rsp
+CMakeFiles/AutomaticWeather_1.dir/source/main.cpp.obj: D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/source/main.cpp
+CMakeFiles/AutomaticWeather_1.dir/source/main.cpp.obj: CMakeFiles/AutomaticWeather_1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/AutomaticWeather_1.dir/source/main.cpp.obj"
+	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AutomaticWeather_1.dir/source/main.cpp.obj -MF CMakeFiles\AutomaticWeather_1.dir\source\main.cpp.obj.d -o CMakeFiles\AutomaticWeather_1.dir\source\main.cpp.obj -c D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\source\main.cpp
 
-CMakeFiles/AutomaticWeather_1.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AutomaticWeather_1.dir/main.cpp.i"
-	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\main.cpp > CMakeFiles\AutomaticWeather_1.dir\main.cpp.i
+CMakeFiles/AutomaticWeather_1.dir/source/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AutomaticWeather_1.dir/source/main.cpp.i"
+	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\source\main.cpp > CMakeFiles\AutomaticWeather_1.dir\source\main.cpp.i
 
-CMakeFiles/AutomaticWeather_1.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AutomaticWeather_1.dir/main.cpp.s"
-	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\main.cpp -o CMakeFiles\AutomaticWeather_1.dir\main.cpp.s
+CMakeFiles/AutomaticWeather_1.dir/source/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AutomaticWeather_1.dir/source/main.cpp.s"
+	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\source\main.cpp -o CMakeFiles\AutomaticWeather_1.dir\source\main.cpp.s
 
-CMakeFiles/AutomaticWeather_1.dir/AutomaticWeather_1.cpp.obj: CMakeFiles/AutomaticWeather_1.dir/flags.make
-CMakeFiles/AutomaticWeather_1.dir/AutomaticWeather_1.cpp.obj: CMakeFiles/AutomaticWeather_1.dir/includes_CXX.rsp
-CMakeFiles/AutomaticWeather_1.dir/AutomaticWeather_1.cpp.obj: D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/AutomaticWeather_1.cpp
-CMakeFiles/AutomaticWeather_1.dir/AutomaticWeather_1.cpp.obj: CMakeFiles/AutomaticWeather_1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/AutomaticWeather_1.dir/AutomaticWeather_1.cpp.obj"
-	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AutomaticWeather_1.dir/AutomaticWeather_1.cpp.obj -MF CMakeFiles\AutomaticWeather_1.dir\AutomaticWeather_1.cpp.obj.d -o CMakeFiles\AutomaticWeather_1.dir\AutomaticWeather_1.cpp.obj -c D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\AutomaticWeather_1.cpp
+CMakeFiles/AutomaticWeather_1.dir/source/AutomaticWeather_1.cpp.obj: CMakeFiles/AutomaticWeather_1.dir/flags.make
+CMakeFiles/AutomaticWeather_1.dir/source/AutomaticWeather_1.cpp.obj: CMakeFiles/AutomaticWeather_1.dir/includes_CXX.rsp
+CMakeFiles/AutomaticWeather_1.dir/source/AutomaticWeather_1.cpp.obj: D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/source/AutomaticWeather_1.cpp
+CMakeFiles/AutomaticWeather_1.dir/source/AutomaticWeather_1.cpp.obj: CMakeFiles/AutomaticWeather_1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/AutomaticWeather_1.dir/source/AutomaticWeather_1.cpp.obj"
+	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AutomaticWeather_1.dir/source/AutomaticWeather_1.cpp.obj -MF CMakeFiles\AutomaticWeather_1.dir\source\AutomaticWeather_1.cpp.obj.d -o CMakeFiles\AutomaticWeather_1.dir\source\AutomaticWeather_1.cpp.obj -c D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\source\AutomaticWeather_1.cpp
 
-CMakeFiles/AutomaticWeather_1.dir/AutomaticWeather_1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AutomaticWeather_1.dir/AutomaticWeather_1.cpp.i"
-	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\AutomaticWeather_1.cpp > CMakeFiles\AutomaticWeather_1.dir\AutomaticWeather_1.cpp.i
+CMakeFiles/AutomaticWeather_1.dir/source/AutomaticWeather_1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AutomaticWeather_1.dir/source/AutomaticWeather_1.cpp.i"
+	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\source\AutomaticWeather_1.cpp > CMakeFiles\AutomaticWeather_1.dir\source\AutomaticWeather_1.cpp.i
 
-CMakeFiles/AutomaticWeather_1.dir/AutomaticWeather_1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AutomaticWeather_1.dir/AutomaticWeather_1.cpp.s"
-	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\AutomaticWeather_1.cpp -o CMakeFiles\AutomaticWeather_1.dir\AutomaticWeather_1.cpp.s
+CMakeFiles/AutomaticWeather_1.dir/source/AutomaticWeather_1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AutomaticWeather_1.dir/source/AutomaticWeather_1.cpp.s"
+	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\source\AutomaticWeather_1.cpp -o CMakeFiles\AutomaticWeather_1.dir\source\AutomaticWeather_1.cpp.s
 
-CMakeFiles/AutomaticWeather_1.dir/SerialPortManager.cpp.obj: CMakeFiles/AutomaticWeather_1.dir/flags.make
-CMakeFiles/AutomaticWeather_1.dir/SerialPortManager.cpp.obj: CMakeFiles/AutomaticWeather_1.dir/includes_CXX.rsp
-CMakeFiles/AutomaticWeather_1.dir/SerialPortManager.cpp.obj: D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/SerialPortManager.cpp
-CMakeFiles/AutomaticWeather_1.dir/SerialPortManager.cpp.obj: CMakeFiles/AutomaticWeather_1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/AutomaticWeather_1.dir/SerialPortManager.cpp.obj"
-	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AutomaticWeather_1.dir/SerialPortManager.cpp.obj -MF CMakeFiles\AutomaticWeather_1.dir\SerialPortManager.cpp.obj.d -o CMakeFiles\AutomaticWeather_1.dir\SerialPortManager.cpp.obj -c D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\SerialPortManager.cpp
+CMakeFiles/AutomaticWeather_1.dir/source/SerialPortManager.cpp.obj: CMakeFiles/AutomaticWeather_1.dir/flags.make
+CMakeFiles/AutomaticWeather_1.dir/source/SerialPortManager.cpp.obj: CMakeFiles/AutomaticWeather_1.dir/includes_CXX.rsp
+CMakeFiles/AutomaticWeather_1.dir/source/SerialPortManager.cpp.obj: D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/source/SerialPortManager.cpp
+CMakeFiles/AutomaticWeather_1.dir/source/SerialPortManager.cpp.obj: CMakeFiles/AutomaticWeather_1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/AutomaticWeather_1.dir/source/SerialPortManager.cpp.obj"
+	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AutomaticWeather_1.dir/source/SerialPortManager.cpp.obj -MF CMakeFiles\AutomaticWeather_1.dir\source\SerialPortManager.cpp.obj.d -o CMakeFiles\AutomaticWeather_1.dir\source\SerialPortManager.cpp.obj -c D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\source\SerialPortManager.cpp
 
-CMakeFiles/AutomaticWeather_1.dir/SerialPortManager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AutomaticWeather_1.dir/SerialPortManager.cpp.i"
-	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\SerialPortManager.cpp > CMakeFiles\AutomaticWeather_1.dir\SerialPortManager.cpp.i
+CMakeFiles/AutomaticWeather_1.dir/source/SerialPortManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AutomaticWeather_1.dir/source/SerialPortManager.cpp.i"
+	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\source\SerialPortManager.cpp > CMakeFiles\AutomaticWeather_1.dir\source\SerialPortManager.cpp.i
 
-CMakeFiles/AutomaticWeather_1.dir/SerialPortManager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AutomaticWeather_1.dir/SerialPortManager.cpp.s"
-	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\SerialPortManager.cpp -o CMakeFiles\AutomaticWeather_1.dir\SerialPortManager.cpp.s
+CMakeFiles/AutomaticWeather_1.dir/source/SerialPortManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AutomaticWeather_1.dir/source/SerialPortManager.cpp.s"
+	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\source\SerialPortManager.cpp -o CMakeFiles\AutomaticWeather_1.dir\source\SerialPortManager.cpp.s
 
-CMakeFiles/AutomaticWeather_1.dir/ModbusManager.cpp.obj: CMakeFiles/AutomaticWeather_1.dir/flags.make
-CMakeFiles/AutomaticWeather_1.dir/ModbusManager.cpp.obj: CMakeFiles/AutomaticWeather_1.dir/includes_CXX.rsp
-CMakeFiles/AutomaticWeather_1.dir/ModbusManager.cpp.obj: D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/ModbusManager.cpp
-CMakeFiles/AutomaticWeather_1.dir/ModbusManager.cpp.obj: CMakeFiles/AutomaticWeather_1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/AutomaticWeather_1.dir/ModbusManager.cpp.obj"
-	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AutomaticWeather_1.dir/ModbusManager.cpp.obj -MF CMakeFiles\AutomaticWeather_1.dir\ModbusManager.cpp.obj.d -o CMakeFiles\AutomaticWeather_1.dir\ModbusManager.cpp.obj -c D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\ModbusManager.cpp
+CMakeFiles/AutomaticWeather_1.dir/source/ModbusManager.cpp.obj: CMakeFiles/AutomaticWeather_1.dir/flags.make
+CMakeFiles/AutomaticWeather_1.dir/source/ModbusManager.cpp.obj: CMakeFiles/AutomaticWeather_1.dir/includes_CXX.rsp
+CMakeFiles/AutomaticWeather_1.dir/source/ModbusManager.cpp.obj: D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/source/ModbusManager.cpp
+CMakeFiles/AutomaticWeather_1.dir/source/ModbusManager.cpp.obj: CMakeFiles/AutomaticWeather_1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/AutomaticWeather_1.dir/source/ModbusManager.cpp.obj"
+	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AutomaticWeather_1.dir/source/ModbusManager.cpp.obj -MF CMakeFiles\AutomaticWeather_1.dir\source\ModbusManager.cpp.obj.d -o CMakeFiles\AutomaticWeather_1.dir\source\ModbusManager.cpp.obj -c D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\source\ModbusManager.cpp
 
-CMakeFiles/AutomaticWeather_1.dir/ModbusManager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AutomaticWeather_1.dir/ModbusManager.cpp.i"
-	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\ModbusManager.cpp > CMakeFiles\AutomaticWeather_1.dir\ModbusManager.cpp.i
+CMakeFiles/AutomaticWeather_1.dir/source/ModbusManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AutomaticWeather_1.dir/source/ModbusManager.cpp.i"
+	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\source\ModbusManager.cpp > CMakeFiles\AutomaticWeather_1.dir\source\ModbusManager.cpp.i
 
-CMakeFiles/AutomaticWeather_1.dir/ModbusManager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AutomaticWeather_1.dir/ModbusManager.cpp.s"
-	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\ModbusManager.cpp -o CMakeFiles\AutomaticWeather_1.dir\ModbusManager.cpp.s
+CMakeFiles/AutomaticWeather_1.dir/source/ModbusManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AutomaticWeather_1.dir/source/ModbusManager.cpp.s"
+	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\source\ModbusManager.cpp -o CMakeFiles\AutomaticWeather_1.dir\source\ModbusManager.cpp.s
 
-CMakeFiles/AutomaticWeather_1.dir/SensorDataParser.cpp.obj: CMakeFiles/AutomaticWeather_1.dir/flags.make
-CMakeFiles/AutomaticWeather_1.dir/SensorDataParser.cpp.obj: CMakeFiles/AutomaticWeather_1.dir/includes_CXX.rsp
-CMakeFiles/AutomaticWeather_1.dir/SensorDataParser.cpp.obj: D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/SensorDataParser.cpp
-CMakeFiles/AutomaticWeather_1.dir/SensorDataParser.cpp.obj: CMakeFiles/AutomaticWeather_1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/AutomaticWeather_1.dir/SensorDataParser.cpp.obj"
-	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AutomaticWeather_1.dir/SensorDataParser.cpp.obj -MF CMakeFiles\AutomaticWeather_1.dir\SensorDataParser.cpp.obj.d -o CMakeFiles\AutomaticWeather_1.dir\SensorDataParser.cpp.obj -c D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\SensorDataParser.cpp
+CMakeFiles/AutomaticWeather_1.dir/source/SensorDataParser.cpp.obj: CMakeFiles/AutomaticWeather_1.dir/flags.make
+CMakeFiles/AutomaticWeather_1.dir/source/SensorDataParser.cpp.obj: CMakeFiles/AutomaticWeather_1.dir/includes_CXX.rsp
+CMakeFiles/AutomaticWeather_1.dir/source/SensorDataParser.cpp.obj: D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/source/SensorDataParser.cpp
+CMakeFiles/AutomaticWeather_1.dir/source/SensorDataParser.cpp.obj: CMakeFiles/AutomaticWeather_1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/AutomaticWeather_1.dir/source/SensorDataParser.cpp.obj"
+	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AutomaticWeather_1.dir/source/SensorDataParser.cpp.obj -MF CMakeFiles\AutomaticWeather_1.dir\source\SensorDataParser.cpp.obj.d -o CMakeFiles\AutomaticWeather_1.dir\source\SensorDataParser.cpp.obj -c D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\source\SensorDataParser.cpp
 
-CMakeFiles/AutomaticWeather_1.dir/SensorDataParser.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AutomaticWeather_1.dir/SensorDataParser.cpp.i"
-	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\SensorDataParser.cpp > CMakeFiles\AutomaticWeather_1.dir\SensorDataParser.cpp.i
+CMakeFiles/AutomaticWeather_1.dir/source/SensorDataParser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AutomaticWeather_1.dir/source/SensorDataParser.cpp.i"
+	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\source\SensorDataParser.cpp > CMakeFiles\AutomaticWeather_1.dir\source\SensorDataParser.cpp.i
 
-CMakeFiles/AutomaticWeather_1.dir/SensorDataParser.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AutomaticWeather_1.dir/SensorDataParser.cpp.s"
-	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\SensorDataParser.cpp -o CMakeFiles\AutomaticWeather_1.dir\SensorDataParser.cpp.s
+CMakeFiles/AutomaticWeather_1.dir/source/SensorDataParser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AutomaticWeather_1.dir/source/SensorDataParser.cpp.s"
+	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\source\SensorDataParser.cpp -o CMakeFiles\AutomaticWeather_1.dir\source\SensorDataParser.cpp.s
 
-CMakeFiles/AutomaticWeather_1.dir/CompassWidget.cpp.obj: CMakeFiles/AutomaticWeather_1.dir/flags.make
-CMakeFiles/AutomaticWeather_1.dir/CompassWidget.cpp.obj: CMakeFiles/AutomaticWeather_1.dir/includes_CXX.rsp
-CMakeFiles/AutomaticWeather_1.dir/CompassWidget.cpp.obj: D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/CompassWidget.cpp
-CMakeFiles/AutomaticWeather_1.dir/CompassWidget.cpp.obj: CMakeFiles/AutomaticWeather_1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/AutomaticWeather_1.dir/CompassWidget.cpp.obj"
-	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AutomaticWeather_1.dir/CompassWidget.cpp.obj -MF CMakeFiles\AutomaticWeather_1.dir\CompassWidget.cpp.obj.d -o CMakeFiles\AutomaticWeather_1.dir\CompassWidget.cpp.obj -c D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\CompassWidget.cpp
+CMakeFiles/AutomaticWeather_1.dir/source/CompassWidget.cpp.obj: CMakeFiles/AutomaticWeather_1.dir/flags.make
+CMakeFiles/AutomaticWeather_1.dir/source/CompassWidget.cpp.obj: CMakeFiles/AutomaticWeather_1.dir/includes_CXX.rsp
+CMakeFiles/AutomaticWeather_1.dir/source/CompassWidget.cpp.obj: D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/source/CompassWidget.cpp
+CMakeFiles/AutomaticWeather_1.dir/source/CompassWidget.cpp.obj: CMakeFiles/AutomaticWeather_1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/AutomaticWeather_1.dir/source/CompassWidget.cpp.obj"
+	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AutomaticWeather_1.dir/source/CompassWidget.cpp.obj -MF CMakeFiles\AutomaticWeather_1.dir\source\CompassWidget.cpp.obj.d -o CMakeFiles\AutomaticWeather_1.dir\source\CompassWidget.cpp.obj -c D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\source\CompassWidget.cpp
 
-CMakeFiles/AutomaticWeather_1.dir/CompassWidget.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AutomaticWeather_1.dir/CompassWidget.cpp.i"
-	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\CompassWidget.cpp > CMakeFiles\AutomaticWeather_1.dir\CompassWidget.cpp.i
+CMakeFiles/AutomaticWeather_1.dir/source/CompassWidget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AutomaticWeather_1.dir/source/CompassWidget.cpp.i"
+	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\source\CompassWidget.cpp > CMakeFiles\AutomaticWeather_1.dir\source\CompassWidget.cpp.i
 
-CMakeFiles/AutomaticWeather_1.dir/CompassWidget.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AutomaticWeather_1.dir/CompassWidget.cpp.s"
-	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\CompassWidget.cpp -o CMakeFiles\AutomaticWeather_1.dir\CompassWidget.cpp.s
+CMakeFiles/AutomaticWeather_1.dir/source/CompassWidget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AutomaticWeather_1.dir/source/CompassWidget.cpp.s"
+	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\source\CompassWidget.cpp -o CMakeFiles\AutomaticWeather_1.dir\source\CompassWidget.cpp.s
 
-CMakeFiles/AutomaticWeather_1.dir/DatabaseManager.cpp.obj: CMakeFiles/AutomaticWeather_1.dir/flags.make
-CMakeFiles/AutomaticWeather_1.dir/DatabaseManager.cpp.obj: CMakeFiles/AutomaticWeather_1.dir/includes_CXX.rsp
-CMakeFiles/AutomaticWeather_1.dir/DatabaseManager.cpp.obj: D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/DatabaseManager.cpp
-CMakeFiles/AutomaticWeather_1.dir/DatabaseManager.cpp.obj: CMakeFiles/AutomaticWeather_1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/AutomaticWeather_1.dir/DatabaseManager.cpp.obj"
-	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AutomaticWeather_1.dir/DatabaseManager.cpp.obj -MF CMakeFiles\AutomaticWeather_1.dir\DatabaseManager.cpp.obj.d -o CMakeFiles\AutomaticWeather_1.dir\DatabaseManager.cpp.obj -c D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\DatabaseManager.cpp
+CMakeFiles/AutomaticWeather_1.dir/source/DatabaseManager.cpp.obj: CMakeFiles/AutomaticWeather_1.dir/flags.make
+CMakeFiles/AutomaticWeather_1.dir/source/DatabaseManager.cpp.obj: CMakeFiles/AutomaticWeather_1.dir/includes_CXX.rsp
+CMakeFiles/AutomaticWeather_1.dir/source/DatabaseManager.cpp.obj: D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/source/DatabaseManager.cpp
+CMakeFiles/AutomaticWeather_1.dir/source/DatabaseManager.cpp.obj: CMakeFiles/AutomaticWeather_1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/AutomaticWeather_1.dir/source/DatabaseManager.cpp.obj"
+	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AutomaticWeather_1.dir/source/DatabaseManager.cpp.obj -MF CMakeFiles\AutomaticWeather_1.dir\source\DatabaseManager.cpp.obj.d -o CMakeFiles\AutomaticWeather_1.dir\source\DatabaseManager.cpp.obj -c D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\source\DatabaseManager.cpp
 
-CMakeFiles/AutomaticWeather_1.dir/DatabaseManager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AutomaticWeather_1.dir/DatabaseManager.cpp.i"
-	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\DatabaseManager.cpp > CMakeFiles\AutomaticWeather_1.dir\DatabaseManager.cpp.i
+CMakeFiles/AutomaticWeather_1.dir/source/DatabaseManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AutomaticWeather_1.dir/source/DatabaseManager.cpp.i"
+	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\source\DatabaseManager.cpp > CMakeFiles\AutomaticWeather_1.dir\source\DatabaseManager.cpp.i
 
-CMakeFiles/AutomaticWeather_1.dir/DatabaseManager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AutomaticWeather_1.dir/DatabaseManager.cpp.s"
-	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\DatabaseManager.cpp -o CMakeFiles\AutomaticWeather_1.dir\DatabaseManager.cpp.s
+CMakeFiles/AutomaticWeather_1.dir/source/DatabaseManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AutomaticWeather_1.dir/source/DatabaseManager.cpp.s"
+	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\source\DatabaseManager.cpp -o CMakeFiles\AutomaticWeather_1.dir\source\DatabaseManager.cpp.s
 
-CMakeFiles/AutomaticWeather_1.dir/DataBuffer.cpp.obj: CMakeFiles/AutomaticWeather_1.dir/flags.make
-CMakeFiles/AutomaticWeather_1.dir/DataBuffer.cpp.obj: CMakeFiles/AutomaticWeather_1.dir/includes_CXX.rsp
-CMakeFiles/AutomaticWeather_1.dir/DataBuffer.cpp.obj: D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/DataBuffer.cpp
-CMakeFiles/AutomaticWeather_1.dir/DataBuffer.cpp.obj: CMakeFiles/AutomaticWeather_1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/AutomaticWeather_1.dir/DataBuffer.cpp.obj"
-	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AutomaticWeather_1.dir/DataBuffer.cpp.obj -MF CMakeFiles\AutomaticWeather_1.dir\DataBuffer.cpp.obj.d -o CMakeFiles\AutomaticWeather_1.dir\DataBuffer.cpp.obj -c D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\DataBuffer.cpp
+CMakeFiles/AutomaticWeather_1.dir/source/DataBuffer.cpp.obj: CMakeFiles/AutomaticWeather_1.dir/flags.make
+CMakeFiles/AutomaticWeather_1.dir/source/DataBuffer.cpp.obj: CMakeFiles/AutomaticWeather_1.dir/includes_CXX.rsp
+CMakeFiles/AutomaticWeather_1.dir/source/DataBuffer.cpp.obj: D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/source/DataBuffer.cpp
+CMakeFiles/AutomaticWeather_1.dir/source/DataBuffer.cpp.obj: CMakeFiles/AutomaticWeather_1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/AutomaticWeather_1.dir/source/DataBuffer.cpp.obj"
+	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AutomaticWeather_1.dir/source/DataBuffer.cpp.obj -MF CMakeFiles\AutomaticWeather_1.dir\source\DataBuffer.cpp.obj.d -o CMakeFiles\AutomaticWeather_1.dir\source\DataBuffer.cpp.obj -c D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\source\DataBuffer.cpp
 
-CMakeFiles/AutomaticWeather_1.dir/DataBuffer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AutomaticWeather_1.dir/DataBuffer.cpp.i"
-	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\DataBuffer.cpp > CMakeFiles\AutomaticWeather_1.dir\DataBuffer.cpp.i
+CMakeFiles/AutomaticWeather_1.dir/source/DataBuffer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AutomaticWeather_1.dir/source/DataBuffer.cpp.i"
+	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\source\DataBuffer.cpp > CMakeFiles\AutomaticWeather_1.dir\source\DataBuffer.cpp.i
 
-CMakeFiles/AutomaticWeather_1.dir/DataBuffer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AutomaticWeather_1.dir/DataBuffer.cpp.s"
-	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\DataBuffer.cpp -o CMakeFiles\AutomaticWeather_1.dir\DataBuffer.cpp.s
+CMakeFiles/AutomaticWeather_1.dir/source/DataBuffer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AutomaticWeather_1.dir/source/DataBuffer.cpp.s"
+	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\source\DataBuffer.cpp -o CMakeFiles\AutomaticWeather_1.dir\source\DataBuffer.cpp.s
 
-CMakeFiles/AutomaticWeather_1.dir/ExportDialog.cpp.obj: CMakeFiles/AutomaticWeather_1.dir/flags.make
-CMakeFiles/AutomaticWeather_1.dir/ExportDialog.cpp.obj: CMakeFiles/AutomaticWeather_1.dir/includes_CXX.rsp
-CMakeFiles/AutomaticWeather_1.dir/ExportDialog.cpp.obj: D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/ExportDialog.cpp
-CMakeFiles/AutomaticWeather_1.dir/ExportDialog.cpp.obj: CMakeFiles/AutomaticWeather_1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/AutomaticWeather_1.dir/ExportDialog.cpp.obj"
-	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AutomaticWeather_1.dir/ExportDialog.cpp.obj -MF CMakeFiles\AutomaticWeather_1.dir\ExportDialog.cpp.obj.d -o CMakeFiles\AutomaticWeather_1.dir\ExportDialog.cpp.obj -c D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\ExportDialog.cpp
+CMakeFiles/AutomaticWeather_1.dir/source/ExportDialog.cpp.obj: CMakeFiles/AutomaticWeather_1.dir/flags.make
+CMakeFiles/AutomaticWeather_1.dir/source/ExportDialog.cpp.obj: CMakeFiles/AutomaticWeather_1.dir/includes_CXX.rsp
+CMakeFiles/AutomaticWeather_1.dir/source/ExportDialog.cpp.obj: D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/source/ExportDialog.cpp
+CMakeFiles/AutomaticWeather_1.dir/source/ExportDialog.cpp.obj: CMakeFiles/AutomaticWeather_1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/AutomaticWeather_1.dir/source/ExportDialog.cpp.obj"
+	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AutomaticWeather_1.dir/source/ExportDialog.cpp.obj -MF CMakeFiles\AutomaticWeather_1.dir\source\ExportDialog.cpp.obj.d -o CMakeFiles\AutomaticWeather_1.dir\source\ExportDialog.cpp.obj -c D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\source\ExportDialog.cpp
 
-CMakeFiles/AutomaticWeather_1.dir/ExportDialog.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AutomaticWeather_1.dir/ExportDialog.cpp.i"
-	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\ExportDialog.cpp > CMakeFiles\AutomaticWeather_1.dir\ExportDialog.cpp.i
+CMakeFiles/AutomaticWeather_1.dir/source/ExportDialog.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AutomaticWeather_1.dir/source/ExportDialog.cpp.i"
+	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\source\ExportDialog.cpp > CMakeFiles\AutomaticWeather_1.dir\source\ExportDialog.cpp.i
 
-CMakeFiles/AutomaticWeather_1.dir/ExportDialog.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AutomaticWeather_1.dir/ExportDialog.cpp.s"
-	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\ExportDialog.cpp -o CMakeFiles\AutomaticWeather_1.dir\ExportDialog.cpp.s
+CMakeFiles/AutomaticWeather_1.dir/source/ExportDialog.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AutomaticWeather_1.dir/source/ExportDialog.cpp.s"
+	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\source\ExportDialog.cpp -o CMakeFiles\AutomaticWeather_1.dir\source\ExportDialog.cpp.s
 
-CMakeFiles/AutomaticWeather_1.dir/CustomChartWidget.cpp.obj: CMakeFiles/AutomaticWeather_1.dir/flags.make
-CMakeFiles/AutomaticWeather_1.dir/CustomChartWidget.cpp.obj: CMakeFiles/AutomaticWeather_1.dir/includes_CXX.rsp
-CMakeFiles/AutomaticWeather_1.dir/CustomChartWidget.cpp.obj: D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/CustomChartWidget.cpp
-CMakeFiles/AutomaticWeather_1.dir/CustomChartWidget.cpp.obj: CMakeFiles/AutomaticWeather_1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/AutomaticWeather_1.dir/CustomChartWidget.cpp.obj"
-	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AutomaticWeather_1.dir/CustomChartWidget.cpp.obj -MF CMakeFiles\AutomaticWeather_1.dir\CustomChartWidget.cpp.obj.d -o CMakeFiles\AutomaticWeather_1.dir\CustomChartWidget.cpp.obj -c D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\CustomChartWidget.cpp
+CMakeFiles/AutomaticWeather_1.dir/source/CustomChartWidget.cpp.obj: CMakeFiles/AutomaticWeather_1.dir/flags.make
+CMakeFiles/AutomaticWeather_1.dir/source/CustomChartWidget.cpp.obj: CMakeFiles/AutomaticWeather_1.dir/includes_CXX.rsp
+CMakeFiles/AutomaticWeather_1.dir/source/CustomChartWidget.cpp.obj: D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/source/CustomChartWidget.cpp
+CMakeFiles/AutomaticWeather_1.dir/source/CustomChartWidget.cpp.obj: CMakeFiles/AutomaticWeather_1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/AutomaticWeather_1.dir/source/CustomChartWidget.cpp.obj"
+	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AutomaticWeather_1.dir/source/CustomChartWidget.cpp.obj -MF CMakeFiles\AutomaticWeather_1.dir\source\CustomChartWidget.cpp.obj.d -o CMakeFiles\AutomaticWeather_1.dir\source\CustomChartWidget.cpp.obj -c D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\source\CustomChartWidget.cpp
 
-CMakeFiles/AutomaticWeather_1.dir/CustomChartWidget.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AutomaticWeather_1.dir/CustomChartWidget.cpp.i"
-	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\CustomChartWidget.cpp > CMakeFiles\AutomaticWeather_1.dir\CustomChartWidget.cpp.i
+CMakeFiles/AutomaticWeather_1.dir/source/CustomChartWidget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AutomaticWeather_1.dir/source/CustomChartWidget.cpp.i"
+	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\source\CustomChartWidget.cpp > CMakeFiles\AutomaticWeather_1.dir\source\CustomChartWidget.cpp.i
 
-CMakeFiles/AutomaticWeather_1.dir/CustomChartWidget.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AutomaticWeather_1.dir/CustomChartWidget.cpp.s"
-	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\CustomChartWidget.cpp -o CMakeFiles\AutomaticWeather_1.dir\CustomChartWidget.cpp.s
+CMakeFiles/AutomaticWeather_1.dir/source/CustomChartWidget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AutomaticWeather_1.dir/source/CustomChartWidget.cpp.s"
+	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\source\CustomChartWidget.cpp -o CMakeFiles\AutomaticWeather_1.dir\source\CustomChartWidget.cpp.s
+
+CMakeFiles/AutomaticWeather_1.dir/source/logger.cpp.obj: CMakeFiles/AutomaticWeather_1.dir/flags.make
+CMakeFiles/AutomaticWeather_1.dir/source/logger.cpp.obj: CMakeFiles/AutomaticWeather_1.dir/includes_CXX.rsp
+CMakeFiles/AutomaticWeather_1.dir/source/logger.cpp.obj: D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/source/logger.cpp
+CMakeFiles/AutomaticWeather_1.dir/source/logger.cpp.obj: CMakeFiles/AutomaticWeather_1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/AutomaticWeather_1.dir/source/logger.cpp.obj"
+	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AutomaticWeather_1.dir/source/logger.cpp.obj -MF CMakeFiles\AutomaticWeather_1.dir\source\logger.cpp.obj.d -o CMakeFiles\AutomaticWeather_1.dir\source\logger.cpp.obj -c D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\source\logger.cpp
+
+CMakeFiles/AutomaticWeather_1.dir/source/logger.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AutomaticWeather_1.dir/source/logger.cpp.i"
+	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\source\logger.cpp > CMakeFiles\AutomaticWeather_1.dir\source\logger.cpp.i
+
+CMakeFiles/AutomaticWeather_1.dir/source/logger.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AutomaticWeather_1.dir/source/logger.cpp.s"
+	D:\QT\QT6.8\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\source\logger.cpp -o CMakeFiles\AutomaticWeather_1.dir\source\logger.cpp.s
 
 # Object files for target AutomaticWeather_1
 AutomaticWeather_1_OBJECTS = \
 "CMakeFiles/AutomaticWeather_1.dir/AutomaticWeather_1_autogen/mocs_compilation.cpp.obj" \
-"CMakeFiles/AutomaticWeather_1.dir/main.cpp.obj" \
-"CMakeFiles/AutomaticWeather_1.dir/AutomaticWeather_1.cpp.obj" \
-"CMakeFiles/AutomaticWeather_1.dir/SerialPortManager.cpp.obj" \
-"CMakeFiles/AutomaticWeather_1.dir/ModbusManager.cpp.obj" \
-"CMakeFiles/AutomaticWeather_1.dir/SensorDataParser.cpp.obj" \
-"CMakeFiles/AutomaticWeather_1.dir/CompassWidget.cpp.obj" \
-"CMakeFiles/AutomaticWeather_1.dir/DatabaseManager.cpp.obj" \
-"CMakeFiles/AutomaticWeather_1.dir/DataBuffer.cpp.obj" \
-"CMakeFiles/AutomaticWeather_1.dir/ExportDialog.cpp.obj" \
-"CMakeFiles/AutomaticWeather_1.dir/CustomChartWidget.cpp.obj"
+"CMakeFiles/AutomaticWeather_1.dir/source/main.cpp.obj" \
+"CMakeFiles/AutomaticWeather_1.dir/source/AutomaticWeather_1.cpp.obj" \
+"CMakeFiles/AutomaticWeather_1.dir/source/SerialPortManager.cpp.obj" \
+"CMakeFiles/AutomaticWeather_1.dir/source/ModbusManager.cpp.obj" \
+"CMakeFiles/AutomaticWeather_1.dir/source/SensorDataParser.cpp.obj" \
+"CMakeFiles/AutomaticWeather_1.dir/source/CompassWidget.cpp.obj" \
+"CMakeFiles/AutomaticWeather_1.dir/source/DatabaseManager.cpp.obj" \
+"CMakeFiles/AutomaticWeather_1.dir/source/DataBuffer.cpp.obj" \
+"CMakeFiles/AutomaticWeather_1.dir/source/ExportDialog.cpp.obj" \
+"CMakeFiles/AutomaticWeather_1.dir/source/CustomChartWidget.cpp.obj" \
+"CMakeFiles/AutomaticWeather_1.dir/source/logger.cpp.obj"
 
 # External object files for target AutomaticWeather_1
 AutomaticWeather_1_EXTERNAL_OBJECTS =
 
 AutomaticWeather_1.exe: CMakeFiles/AutomaticWeather_1.dir/AutomaticWeather_1_autogen/mocs_compilation.cpp.obj
-AutomaticWeather_1.exe: CMakeFiles/AutomaticWeather_1.dir/main.cpp.obj
-AutomaticWeather_1.exe: CMakeFiles/AutomaticWeather_1.dir/AutomaticWeather_1.cpp.obj
-AutomaticWeather_1.exe: CMakeFiles/AutomaticWeather_1.dir/SerialPortManager.cpp.obj
-AutomaticWeather_1.exe: CMakeFiles/AutomaticWeather_1.dir/ModbusManager.cpp.obj
-AutomaticWeather_1.exe: CMakeFiles/AutomaticWeather_1.dir/SensorDataParser.cpp.obj
-AutomaticWeather_1.exe: CMakeFiles/AutomaticWeather_1.dir/CompassWidget.cpp.obj
-AutomaticWeather_1.exe: CMakeFiles/AutomaticWeather_1.dir/DatabaseManager.cpp.obj
-AutomaticWeather_1.exe: CMakeFiles/AutomaticWeather_1.dir/DataBuffer.cpp.obj
-AutomaticWeather_1.exe: CMakeFiles/AutomaticWeather_1.dir/ExportDialog.cpp.obj
-AutomaticWeather_1.exe: CMakeFiles/AutomaticWeather_1.dir/CustomChartWidget.cpp.obj
+AutomaticWeather_1.exe: CMakeFiles/AutomaticWeather_1.dir/source/main.cpp.obj
+AutomaticWeather_1.exe: CMakeFiles/AutomaticWeather_1.dir/source/AutomaticWeather_1.cpp.obj
+AutomaticWeather_1.exe: CMakeFiles/AutomaticWeather_1.dir/source/SerialPortManager.cpp.obj
+AutomaticWeather_1.exe: CMakeFiles/AutomaticWeather_1.dir/source/ModbusManager.cpp.obj
+AutomaticWeather_1.exe: CMakeFiles/AutomaticWeather_1.dir/source/SensorDataParser.cpp.obj
+AutomaticWeather_1.exe: CMakeFiles/AutomaticWeather_1.dir/source/CompassWidget.cpp.obj
+AutomaticWeather_1.exe: CMakeFiles/AutomaticWeather_1.dir/source/DatabaseManager.cpp.obj
+AutomaticWeather_1.exe: CMakeFiles/AutomaticWeather_1.dir/source/DataBuffer.cpp.obj
+AutomaticWeather_1.exe: CMakeFiles/AutomaticWeather_1.dir/source/ExportDialog.cpp.obj
+AutomaticWeather_1.exe: CMakeFiles/AutomaticWeather_1.dir/source/CustomChartWidget.cpp.obj
+AutomaticWeather_1.exe: CMakeFiles/AutomaticWeather_1.dir/source/logger.cpp.obj
 AutomaticWeather_1.exe: CMakeFiles/AutomaticWeather_1.dir/build.make
 AutomaticWeather_1.exe: D:/QT/QT6.8/6.8.3/mingw_64/lib/libQt6SerialBus.a
 AutomaticWeather_1.exe: D:/QT/QT6.8/6.8.3/mingw_64/lib/libQt6Sql.a
@@ -277,7 +294,7 @@ AutomaticWeather_1.exe: D:/QT/QT6.8/6.8.3/mingw_64/lib/libQt6EntryPoint.a
 AutomaticWeather_1.exe: CMakeFiles/AutomaticWeather_1.dir/linkLibs.rsp
 AutomaticWeather_1.exe: CMakeFiles/AutomaticWeather_1.dir/objects1.rsp
 AutomaticWeather_1.exe: CMakeFiles/AutomaticWeather_1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable AutomaticWeather_1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable AutomaticWeather_1.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\AutomaticWeather_1.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

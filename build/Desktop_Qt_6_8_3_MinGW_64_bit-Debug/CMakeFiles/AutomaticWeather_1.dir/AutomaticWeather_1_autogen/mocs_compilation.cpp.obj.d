@@ -1,7 +1,7 @@
 CMakeFiles/AutomaticWeather_1.dir/AutomaticWeather_1_autogen/mocs_compilation.cpp.obj: \
  D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\AutomaticWeather_1_autogen\mocs_compilation.cpp \
- D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\AutomaticWeather_1_autogen\EWIEGA46WW/moc_AutomaticWeather_1.cpp \
- D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/AutomaticWeather_1.h \
+ D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\AutomaticWeather_1_autogen\6YEA5652QU/moc_AutomaticWeather_1.cpp \
+ D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/include/AutomaticWeather_1.h \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QWidget \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qwidget.h \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -372,7 +372,7 @@ CMakeFiles/AutomaticWeather_1.dir/AutomaticWeather_1_autogen/mocs_compilation.cp
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qsizepolicy.h \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qcursor.h \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qbitmap.h \
- D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/SerialPortManager.h \
+ D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/include/SerialPortManager.h \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QObject \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qobject.h \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QTimer \
@@ -399,7 +399,7 @@ CMakeFiles/AutomaticWeather_1.dir/AutomaticWeather_1_autogen/mocs_compilation.cp
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qrubberband.h \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qframe.h \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qabstractitemmodel.h \
- D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/ModbusManager.h \
+ D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/include/ModbusManager.h \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtSerialPort/QSerialPort \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtSerialPort/qserialport.h \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qiodevice.h \
@@ -440,14 +440,14 @@ CMakeFiles/AutomaticWeather_1.dir/AutomaticWeather_1_autogen/mocs_compilation.cp
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qnativeinterface.h \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qcoreapplication_platform.h \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qcoreapplication.h \
- D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/SensorDataParser.h \
- D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/DataBuffer.h \
+ D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/include/SensorDataParser.h \
+ D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/include/DataBuffer.h \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QVector \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qvector.h \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QMutex \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qmutex.h \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtsan_impl.h \
- D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/DatabaseManager.h \
+ D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/include/DatabaseManager.h \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtSql/QSqlDatabase \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtSql/qsqldatabase.h \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtSql/qtsqlglobal.h \
@@ -464,7 +464,7 @@ CMakeFiles/AutomaticWeather_1.dir/AutomaticWeather_1_autogen/mocs_compilation.cp
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qcalendar.h \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QPointF \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qpoint.h \
- D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/ExportDialog.h \
+ D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/include/ExportDialog.h \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QDialog \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qdialog.h \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QLineEdit \
@@ -506,7 +506,7 @@ CMakeFiles/AutomaticWeather_1.dir/AutomaticWeather_1_autogen/mocs_compilation.cp
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qtreewidget.h \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qtreeview.h \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qtreewidgetitemiterator.h \
- D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/CompassWidget.h \
+ D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/include/CompassWidget.h \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/QPainter \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qpainter.h \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/QPainterPath \
@@ -578,10 +578,10 @@ CMakeFiles/AutomaticWeather_1.dir/AutomaticWeather_1_autogen/mocs_compilation.cp
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QStringConverter \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qstringconverter.h \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qtmochelpers.h \
- D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\AutomaticWeather_1_autogen\EWIEGA46WW/moc_CompassWidget.cpp \
- D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/CompassWidget.h \
- D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\AutomaticWeather_1_autogen\EWIEGA46WW/moc_CustomChartWidget.cpp \
- D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/CustomChartWidget.h \
+ D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\AutomaticWeather_1_autogen\6YEA5652QU/moc_CompassWidget.cpp \
+ D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/include/CompassWidget.h \
+ D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\AutomaticWeather_1_autogen\6YEA5652QU/moc_CustomChartWidget.cpp \
+ D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/include/CustomChartWidget.h \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCharts/QChartView \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCharts/qchartview.h \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCharts/QAbstractAxis \
@@ -647,15 +647,15 @@ CMakeFiles/AutomaticWeather_1.dir/AutomaticWeather_1_autogen/mocs_compilation.cp
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCharts/qvalueaxis.h \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCharts/QDateTimeAxis \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCharts/qdatetimeaxis.h \
- D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\AutomaticWeather_1_autogen\EWIEGA46WW/moc_DataBuffer.cpp \
- D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/DataBuffer.h \
- D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\AutomaticWeather_1_autogen\EWIEGA46WW/moc_DatabaseManager.cpp \
- D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/DatabaseManager.h \
- D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\AutomaticWeather_1_autogen\EWIEGA46WW/moc_ExportDialog.cpp \
- D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/ExportDialog.h \
- D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\AutomaticWeather_1_autogen\EWIEGA46WW/moc_ModbusManager.cpp \
- D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/ModbusManager.h \
- D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\AutomaticWeather_1_autogen\EWIEGA46WW/moc_SensorDataParser.cpp \
- D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/SensorDataParser.h \
- D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\AutomaticWeather_1_autogen\EWIEGA46WW/moc_SerialPortManager.cpp \
- D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/SerialPortManager.h
+ D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\AutomaticWeather_1_autogen\6YEA5652QU/moc_DataBuffer.cpp \
+ D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/include/DataBuffer.h \
+ D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\AutomaticWeather_1_autogen\6YEA5652QU/moc_DatabaseManager.cpp \
+ D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/include/DatabaseManager.h \
+ D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\AutomaticWeather_1_autogen\6YEA5652QU/moc_ExportDialog.cpp \
+ D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/include/ExportDialog.h \
+ D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\AutomaticWeather_1_autogen\6YEA5652QU/moc_ModbusManager.cpp \
+ D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/include/ModbusManager.h \
+ D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\AutomaticWeather_1_autogen\6YEA5652QU/moc_SensorDataParser.cpp \
+ D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/include/SensorDataParser.h \
+ D:\BIANJI\qt\AutomaticWeather_1\AutomaticWeather_1\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\AutomaticWeather_1_autogen\6YEA5652QU/moc_SerialPortManager.cpp \
+ D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/include/SerialPortManager.h

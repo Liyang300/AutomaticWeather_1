@@ -1,30 +1,32 @@
 AutomaticWeather_1_autogen/timestamp: \
-	D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/AutomaticWeather_1.cpp \
-	D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/AutomaticWeather_1.h \
 	D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/CMakeLists.txt \
-	D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/CompassWidget.cpp \
-	D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/CompassWidget.h \
-	D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/CustomChartWidget.cpp \
-	D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/CustomChartWidget.h \
-	D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/DataBuffer.cpp \
-	D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/DataBuffer.h \
-	D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/DatabaseManager.cpp \
-	D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/DatabaseManager.h \
-	D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/ExportDialog.cpp \
-	D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/ExportDialog.h \
-	D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/ModbusManager.cpp \
-	D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/ModbusManager.h \
-	D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/SensorDataParser.cpp \
-	D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/SensorDataParser.h \
-	D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/SerialPortManager.cpp \
-	D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/SerialPortManager.h \
 	D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qtc/package-manager/auto-setup.cmake \
 	D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake \
 	D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/AutomaticWeather_1_autogen/moc_predefs.h \
 	D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/CMakeFiles/3.29.0/CMakeCXXCompiler.cmake \
 	D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/CMakeFiles/3.29.0/CMakeRCCompiler.cmake \
 	D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/CMakeFiles/3.29.0/CMakeSystem.cmake \
-	D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/main.cpp \
+	D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/include/AutomaticWeather_1.h \
+	D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/include/CompassWidget.h \
+	D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/include/CustomChartWidget.h \
+	D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/include/DataBuffer.h \
+	D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/include/DatabaseManager.h \
+	D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/include/ExportDialog.h \
+	D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/include/ModbusManager.h \
+	D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/include/SensorDataParser.h \
+	D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/include/SerialPortManager.h \
+	D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/include/logger.h \
+	D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/source/AutomaticWeather_1.cpp \
+	D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/source/CompassWidget.cpp \
+	D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/source/CustomChartWidget.cpp \
+	D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/source/DataBuffer.cpp \
+	D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/source/DatabaseManager.cpp \
+	D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/source/ExportDialog.cpp \
+	D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/source/ModbusManager.cpp \
+	D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/source/SensorDataParser.cpp \
+	D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/source/SerialPortManager.cpp \
+	D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/source/logger.cpp \
+	D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/source/main.cpp \
 	D:/QT/QT6.8/6.8.3/mingw_64/include/QtCharts/QAbstractAxis \
 	D:/QT/QT6.8/6.8.3/mingw_64/include/QtCharts/QAbstractSeries \
 	D:/QT/QT6.8/6.8.3/mingw_64/include/QtCharts/QChart \
@@ -921,5 +923,5 @@ AutomaticWeather_1_autogen/timestamp: \
 	E:/python/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/Platform/Windows-windres.cmake \
 	E:/python/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/Platform/Windows.cmake \
 	E:/python/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake \
-	D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/AutomaticWeather_1.ui \
+	D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/source/AutomaticWeather_1.ui \
 	E:/python/Lib/site-packages/cmake/data/bin/cmake.exe
