@@ -1,6 +1,6 @@
 #include "AutomaticWeather_1.h"
 #include "./ui_AutomaticWeather_1.h"
-
+#include "logger.h"
 
 
 AutomaticWeather_1::AutomaticWeather_1(QWidget *parent)
@@ -20,10 +20,10 @@ AutomaticWeather_1::AutomaticWeather_1(QWidget *parent)
     initDatabase();
 
     // 初始化数据库管理器（确保数据库文件创建）
-    qDebug() << "初始化数据库...";
+    LOG_INFO(u8"初始化数据库...");
     DatabaseManager& dbManager = DatabaseManager::instance();
     if (!dbManager.initialize()) {
-        qDebug() << "警告：数据库初始化失败，数据可能无法保存";
+        LOG_INFO("警告：数据库初始化失败，数据可能无法保存");
         QMessageBox::warning(this, "数据库错误",
                              "数据库初始化失败，数据将不会保存到文件。\n"
                              "错误信息：" + dbManager.databasePath());
@@ -123,6 +123,9 @@ AutomaticWeather_1::AutomaticWeather_1(QWidget *parent)
 
     // 初始化按钮状态
     ui->open->setText("启动数据采集");
+
+    //初始化按钮颜色
+    switchDataType(0);
 
 
     qDebug() << "程序初始化完成";
@@ -1295,12 +1298,25 @@ void AutomaticWeather_1::switchDataType(int dataType)
     if (m_currentDataType == dataType) return;
     m_currentDataType = dataType;
 
-    ui->temp->setStyleSheet(dataType == 0 ?
-                                "QPushButton { background-color: #1976D2; color: white; font-weight: bold; }" :
-                                "QPushButton { background-color: #2196F3; color: white; }");
-    ui->RH->setStyleSheet(dataType == 1 ?
-                              "QPushButton { background-color: #7B1FA2; color: white; font-weight: bold; }" :
-                              "QPushButton { background-color: #9C27B0; color: white; }");
+    auto setButtonStyle = [](QPushButton* btn, bool isSelected) {
+        if (isSelected) {
+            btn->setStyleSheet(
+                "QPushButton { background-color: #1976D2; color: white; font-weight: bold; }"
+                );
+        } else {
+            btn->setStyleSheet(
+                "QPushButton { background-color: white; color: black; }"
+                );
+        }
+    };
+
+    // 根据 dataType 设置各个按钮的样式
+    setButtonStyle(ui->temp,            dataType == 0);
+    setButtonStyle(ui->RH_2,            dataType == 1);
+    setButtonStyle(ui->pressure,        dataType == 2);
+    setButtonStyle(ui->water,           dataType == 3);
+    setButtonStyle(ui->water_percent,   dataType == 4);
+    setButtonStyle(ui->dewPoint,        dataType == 5);
 
     updateChartDisplay();
 }

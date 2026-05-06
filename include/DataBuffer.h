@@ -66,7 +66,7 @@ private:
         }
 
         bool isFull() const {
-            return temperature.size() >= 2;  // 60秒数据
+            return temperature.size() >= 4;  // n个数据
         }
 
         bool isEmpty() const {

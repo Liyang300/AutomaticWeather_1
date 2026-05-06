@@ -89,7 +89,7 @@ private:
 
 
     float parseFloat32(const uint16_t *data);
-    int m_currentDataType = 0;
+    int m_currentDataType = -1;
     static const int MAX_DISPLAY_DAYS = 7;
 
 
