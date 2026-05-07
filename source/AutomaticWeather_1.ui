@@ -31,13 +31,13 @@
         <widget class="QComboBox" name="SerialCb">
          <property name="minimumSize">
           <size>
-           <width>90</width>
+           <width>80</width>
            <height>20</height>
           </size>
          </property>
          <property name="maximumSize">
           <size>
-           <width>90</width>
+           <width>80</width>
            <height>20</height>
           </size>
          </property>
@@ -45,6 +45,12 @@
        </item>
        <item row="0" column="1">
         <widget class="QLabel" name="label">
+         <property name="minimumSize">
+          <size>
+           <width>35</width>
+           <height>0</height>
+          </size>
+         </property>
          <property name="maximumSize">
           <size>
            <width>27</width>
@@ -60,13 +66,13 @@
         <widget class="QComboBox" name="BaudRate">
          <property name="minimumSize">
           <size>
-           <width>90</width>
+           <width>80</width>
            <height>20</height>
           </size>
          </property>
          <property name="maximumSize">
           <size>
-           <width>90</width>
+           <width>80</width>
            <height>20</height>
           </size>
          </property>
@@ -92,6 +98,12 @@
        </item>
        <item row="1" column="1">
         <widget class="QLabel" name="label_2">
+         <property name="minimumSize">
+          <size>
+           <width>35</width>
+           <height>0</height>
+          </size>
+         </property>
          <property name="maximumSize">
           <size>
            <width>27</width>
@@ -231,10 +243,10 @@
               <string notr="true">QLCDNumber {
     color: black;               /* 数字颜色为黑色 */
     background-color: white;    /* 背景为白色 */
-    border: 2px solid gray;     /* 边框为灰色，2像素宽 */
+    border: 2px solid green;     /* 边框为灰色，2像素宽 */
     border-radius: 5px;         /* 圆角半径为5像素 */
     font-weight: bold;          /* 字体加粗 */
-}</string>
+}a</string>
              </property>
              <property name="digitCount">
               <number>6</number>
@@ -259,10 +271,10 @@
               <string notr="true">QLCDNumber {
     color: black;               /* 数字颜色为黑色 */
     background-color: white;    /* 背景为白色 */
-    border: 2px solid gray;     /* 边框为灰色，2像素宽 */
+    border: 2px solid green;     /* 边框为灰色，2像素宽 */
     border-radius: 5px;         /* 圆角半径为5像素 */
     font-weight: bold;          /* 字体加粗 */
-}</string>
+}a</string>
              </property>
              <property name="digitCount">
               <number>6</number>
@@ -303,17 +315,12 @@
              </property>
              <property name="styleSheet">
               <string notr="true">QLCDNumber {
-    background-color: white;    /* 背景白色 */
-    border: 2px solid gray;
-    border-radius: 5px;
-    font-weight: bold;
-}
-
-QLCDNumber:digit {
-    color: black;               /* 数字黑色 */
-    /*去掉阴影 */
-    shadow-color: transparent;
-}</string>
+    color: black;               /* 数字颜色为黑色 */
+    background-color: white;    /* 背景为白色 */
+    border: 2px solid green;     /* 边框为灰色，2像素宽 */
+    border-radius: 5px;         /* 圆角半径为5像素 */
+    font-weight: bold;          /* 字体加粗 */
+}a</string>
              </property>
              <property name="digitCount">
               <number>6</number>
@@ -350,17 +357,12 @@ QLCDNumber:digit {
              </property>
              <property name="styleSheet">
               <string notr="true">QLCDNumber {
-    background-color: white;    /* 背景白色 */
-    border: 2px solid gray;
-    border-radius: 5px;
-    font-weight: bold;
-}
-
-QLCDNumber:digit {
-    color: black;               /* 数字黑色 */
-    /*去掉阴影 */
-    shadow-color: transparent;
-}</string>
+    color: black;               /* 数字颜色为黑色 */
+    background-color: white;    /* 背景为白色 */
+    border: 2px solid green;     /* 边框为灰色，2像素宽 */
+    border-radius: 5px;         /* 圆角半径为5像素 */
+    font-weight: bold;          /* 字体加粗 */
+}a</string>
              </property>
              <property name="digitCount">
               <number>6</number>
@@ -421,10 +423,10 @@ QLCDNumber:digit {
               <string notr="true">QLCDNumber {
     color: black;               /* 数字颜色为黑色 */
     background-color: white;    /* 背景为白色 */
-    border: 2px solid gray;     /* 边框为灰色，2像素宽 */
+    border: 2px solid green;     /* 边框为灰色，2像素宽 */
     border-radius: 5px;         /* 圆角半径为5像素 */
     font-weight: bold;          /* 字体加粗 */
-}</string>
+}a</string>
              </property>
              <property name="digitCount">
               <number>6</number>
@@ -469,10 +471,10 @@ QLCDNumber:digit {
               <string notr="true">QLCDNumber {
     color: black;               /* 数字颜色为黑色 */
     background-color: white;    /* 背景为白色 */
-    border: 2px solid gray;     /* 边框为灰色，2像素宽 */
+    border: 2px solid green;     /* 边框为灰色，2像素宽 */
     border-radius: 5px;         /* 圆角半径为5像素 */
     font-weight: bold;          /* 字体加粗 */
-}</string>
+}a</string>
              </property>
              <property name="digitCount">
               <number>6</number>
@@ -513,18 +515,12 @@ QLCDNumber:digit {
              </property>
              <property name="styleSheet">
               <string notr="true">QLCDNumber {
-    background-color: white;    /* 背景白色 */
-    border: 2px solid gray;
-    border-radius: 5px;
-    font-weight: bold;
-}
-
-/* 这行才是真正修改数字颜色 */
-QLCDNumber:digit {
-    color: black;               /* 数字黑色 */
-    /* 可选：去掉阴影 */
-    shadow-color: transparent;
-}</string>
+    color: black;               /* 数字颜色为黑色 */
+    background-color: white;    /* 背景为白色 */
+    border: 2px solid green;     /* 边框为灰色，2像素宽 */
+    border-radius: 5px;         /* 圆角半径为5像素 */
+    font-weight: bold;          /* 字体加粗 */
+}a</string>
              </property>
              <property name="digitCount">
               <number>6</number>
@@ -567,18 +563,12 @@ QLCDNumber:digit {
              </property>
              <property name="styleSheet">
               <string notr="true">QLCDNumber {
-    background-color: white;    /* 背景白色 */
-    border: 2px solid gray;
-    border-radius: 5px;
-    font-weight: bold;
-}
-
-/* 这行才是真正修改数字颜色 */
-QLCDNumber:digit {
-    color: black;               /* 数字黑色 */
-    /* 可选：去掉阴影 */
-    shadow-color: transparent;
-}</string>
+    color: black;               /* 数字颜色为黑色 */
+    background-color: white;    /* 背景为白色 */
+    border: 2px solid green;     /* 边框为灰色，2像素宽 */
+    border-radius: 5px;         /* 圆角半径为5像素 */
+    font-weight: bold;          /* 字体加粗 */
+}a</string>
              </property>
              <property name="digitCount">
               <number>6</number>
@@ -706,7 +696,7 @@ QLCDNumber:digit {
          <property name="frameShadow">
           <enum>QFrame::Shadow::Raised</enum>
          </property>
-         <widget class="QWidget" name="">
+         <widget class="QWidget" name="layoutWidget">
           <property name="geometry">
            <rect>
             <x>14</x>

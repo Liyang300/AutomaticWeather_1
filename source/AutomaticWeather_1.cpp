@@ -17,6 +17,15 @@ AutomaticWeather_1::AutomaticWeather_1(QWidget *parent)
 {
     ui->setupUi(this);
 
+    ui->High->setPalette(QPalette(Qt::black));
+    ui->hPa->setPalette(QPalette(Qt::black));
+    ui->Temp->setPalette(QPalette(Qt::black));
+    ui->RH->setPalette(QPalette(Qt::black));
+    ui->DP_Temp->setPalette(QPalette(Qt::black));
+    ui->MC->setPalette(QPalette(Qt::black));
+    ui->WinSpeed->setPalette(QPalette(Qt::black));
+    ui->MC_Percent->setPalette(QPalette(Qt::black));
+
     initDatabase();
 
     // 初始化数据库管理器（确保数据库文件创建）
