@@ -598,33 +598,6 @@ CMakeFiles/AutomaticWeather_1.dir/source/AutomaticWeather_1.cpp.obj: \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QLCDNumber \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qlcdnumber.h \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QLabel \
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QLineEdit \
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QPlainTextEdit \
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qplaintextedit.h \
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qtextedit.h \
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qabstracttextdocumentlayout.h \
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qtextlayout.h \
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qevent.h \
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qeventpoint.h \
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qvector2d.h \
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qvectornd.h \
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qpointingdevice.h \
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qinputdevice.h \
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qscreen.h \
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QList \
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qlist.h \
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QObject \
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QRect \
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qrect.h \
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QSize \
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qsize.h \
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QSizeF \
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/QTransform \
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qtransform.h \
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qscreen_platform.h \
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qglyphrun.h \
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qrawfont.h \
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qfontdatabase.h \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QPushButton \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QTableWidget \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QTreeWidget \
@@ -642,6 +615,7 @@ CMakeFiles/AutomaticWeather_1.dir/source/AutomaticWeather_1.cpp.obj: \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qpen.h \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/QFont \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qfont.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QObject \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCharts/QAbstractSeries \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCharts/qabstractseries.h \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtCharts/QChart \
@@ -651,6 +625,23 @@ CMakeFiles/AutomaticWeather_1.dir/source/AutomaticWeather_1.cpp.obj: \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QGraphicsWidget \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qgraphicswidget.h \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qgraphicslayoutitem.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qevent.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qeventpoint.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qvector2d.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qvectornd.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qpointingdevice.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qinputdevice.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qscreen.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QList \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qlist.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QRect \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qrect.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QSize \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/qsize.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtCore/QSizeF \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/QTransform \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qtransform.h \
+ D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qscreen_platform.h \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qgraphicsitem.h \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qpainterpath.h \
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/QBrush \

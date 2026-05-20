@@ -1,0 +1,9 @@
+D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/build/Desktop_Qt_6_8_3_MinGW_64_bit-Release/CMakeFiles/AutomaticWeather_1.dir
+D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/build/Desktop_Qt_6_8_3_MinGW_64_bit-Release/CMakeFiles/edit_cache.dir
+D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/build/Desktop_Qt_6_8_3_MinGW_64_bit-Release/CMakeFiles/rebuild_cache.dir
+D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/build/Desktop_Qt_6_8_3_MinGW_64_bit-Release/CMakeFiles/list_install_components.dir
+D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/build/Desktop_Qt_6_8_3_MinGW_64_bit-Release/CMakeFiles/install.dir
+D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/build/Desktop_Qt_6_8_3_MinGW_64_bit-Release/CMakeFiles/install/local.dir
+D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/build/Desktop_Qt_6_8_3_MinGW_64_bit-Release/CMakeFiles/install/strip.dir
+D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/build/Desktop_Qt_6_8_3_MinGW_64_bit-Release/CMakeFiles/AutomaticWeather_1_autogen_timestamp_deps.dir
+D:/BIANJI/qt/AutomaticWeather_1/AutomaticWeather_1/build/Desktop_Qt_6_8_3_MinGW_64_bit-Release/CMakeFiles/AutomaticWeather_1_autogen.dir

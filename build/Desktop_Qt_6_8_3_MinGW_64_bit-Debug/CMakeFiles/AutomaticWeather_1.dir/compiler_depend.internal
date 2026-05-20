@@ -907,7 +907,6 @@ CMakeFiles/AutomaticWeather_1.dir/source/AutomaticWeather_1.cpp.obj
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/QPainterPath
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/QPen
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/QTransform
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qabstracttextdocumentlayout.h
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qaction.h
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qbitmap.h
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qbrush.h
@@ -916,10 +915,8 @@ CMakeFiles/AutomaticWeather_1.dir/source/AutomaticWeather_1.cpp.obj
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qevent.h
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qeventpoint.h
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qfont.h
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qfontdatabase.h
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qfontinfo.h
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qfontmetrics.h
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qglyphrun.h
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qguiapplication.h
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qguiapplication_platform.h
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qicon.h
@@ -937,7 +934,6 @@ CMakeFiles/AutomaticWeather_1.dir/source/AutomaticWeather_1.cpp.obj
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qpixmap.h
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qpointingdevice.h
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qpolygon.h
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qrawfont.h
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qregion.h
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qrgb.h
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qrgba64.h
@@ -946,7 +942,6 @@ CMakeFiles/AutomaticWeather_1.dir/source/AutomaticWeather_1.cpp.obj
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qtextcursor.h
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qtextdocument.h
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qtextformat.h
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qtextlayout.h
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qtextoption.h
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qtgui-config.h
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtGui/qtguiexports.h
@@ -998,7 +993,6 @@ CMakeFiles/AutomaticWeather_1.dir/source/AutomaticWeather_1.cpp.obj
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QLabel
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QLineEdit
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QMessageBox
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QPlainTextEdit
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QProgressBar
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QProgressDialog
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/QPushButton
@@ -1033,7 +1027,6 @@ CMakeFiles/AutomaticWeather_1.dir/source/AutomaticWeather_1.cpp.obj
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qlcdnumber.h
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qlineedit.h
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qmessagebox.h
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qplaintextedit.h
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qprogressbar.h
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qprogressdialog.h
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qpushbutton.h
@@ -1047,7 +1040,6 @@ CMakeFiles/AutomaticWeather_1.dir/source/AutomaticWeather_1.cpp.obj
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qtableview.h
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qtablewidget.h
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qtabwidget.h
- D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qtextedit.h
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qtreeview.h
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qtreewidget.h
  D:/QT/QT6.8/6.8.3/mingw_64/include/QtWidgets/qtreewidgetitemiterator.h

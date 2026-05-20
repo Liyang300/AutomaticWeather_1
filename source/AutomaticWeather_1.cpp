@@ -61,8 +61,8 @@ AutomaticWeather_1::AutomaticWeather_1(QWidget *parent)
             this, &AutomaticWeather_1::onBaudRateChanged);
 
     // 连接发送按钮信号
-    connect(ui->sendButton, &QPushButton::clicked,
-            this, &AutomaticWeather_1::on_pushButton_clicked);
+    //connect(ui->sendButton, &QPushButton::clicked,
+    //        this, &AutomaticWeather_1::on_pushButton_clicked);
 
     // 连接保存按钮信号
     connect(ui->save, &QPushButton::clicked,
@@ -314,7 +314,7 @@ void AutomaticWeather_1::onBaudRateChanged(int index)
     QString baudRate = ui->BaudRate->itemText(index);
     qDebug() << "波特率更改为:" << baudRate << "bps";
 }
-
+/*
 void AutomaticWeather_1::on_pushButton_clicked()
 {
     QString sendData = ui->sendshow->text();
@@ -324,8 +324,7 @@ void AutomaticWeather_1::on_pushButton_clicked()
 
     qDebug() << "发送数据:" << sendData;
     // 这里可以添加发送逻辑
-}
-
+*/
 void AutomaticWeather_1::onModbusStateChanged(QModbusDevice::State state)
 {
     QString stateStr;
@@ -1342,7 +1341,3 @@ void AutomaticWeather_1::updateChartDisplay()
     auto data = DatabaseManager::instance().queryDailyExtremes(MAX_DISPLAY_DAYS, m_currentDataType);
     ui->chartWidget->updateChart(data, m_currentDataType, MAX_DISPLAY_DAYS);
 }
-
-
-
-

@@ -46,6 +46,7 @@ set(PROJECT_SOURCES
     source/ExportDialog.cpp
     source/CustomChartWidget.cpp
     source/logger.cpp
+    source/app.rc
 
     include/AutomaticWeather_1.h
     include/SerialPortManager.h

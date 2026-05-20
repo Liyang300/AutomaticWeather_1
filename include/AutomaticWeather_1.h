@@ -43,7 +43,6 @@ public:
 private slots:
     void on_open_clicked();            // 同一个按钮实现打开/关闭功能
     void onBaudRateChanged(int index);
-    void on_pushButton_clicked();      // 发送按钮
 
     // Modbus信号处理
     void onModbusStateChanged(QModbusDevice::State state);
